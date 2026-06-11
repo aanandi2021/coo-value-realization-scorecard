@@ -1,0 +1,14 @@
+{
+  "name": "CoO Value Realization Scorecard",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "postCreateCommand": "npm install",
+  "postStartCommand": "npm start",
+  "forwardPorts": [5260],
+  "portsAttributes": {
+    "5260": {
+      "label": "Scorecard App",
+      "onAutoForward": "openBrowser",
+      "visibility": "public"
+    }
+  }
+}
