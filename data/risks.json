@@ -1,0 +1,173 @@
+{
+  "version": "1.0.0",
+  "source": "City of Ottawa VRF_Scorecard_MVP — Risk_Category_Definitions.csv",
+  "risks": [
+    {
+      "id": "climate-change",
+      "name": "Climate change",
+      "intentArea": "Climate change",
+      "definition": "Climate change is a long-term shift in average weather patterns and temperatures, often referring specifically to the rapid warming trend since the mid-19th century, primarily driven by human activities like burning fossil fuels, which release heat-trapping greenhouse gases into the atmosphere. Climate Change risk refers to the uncertainty of how this shift impacts municipal services, infrastructure, the local ecosystem, citizens, and their property.",
+      "indicators": [
+        "climate",
+        "weather",
+        "emission",
+        "greenhouse",
+        "flood",
+        "heat"
+      ]
+    },
+    {
+      "id": "compliance",
+      "name": "Compliance",
+      "intentArea": "Compliance",
+      "definition": "Compliance refers to the process of ensuring an organization follows all applicable laws, regulations, industry standards, and internal policies. Compliance risk refers to the uncertainty of how the City may be impacted by new and/or changing requirements, as well as the uncertain outcomes of non-compliance.",
+      "indicators": [
+        "compliance",
+        "regulation",
+        "policy",
+        "audit",
+        "breach"
+      ]
+    },
+    {
+      "id": "continuity-of-operations",
+      "name": "Continuity of Operations",
+      "intentArea": "Continuity of Operations",
+      "definition": "Continuity of Operations refers to an organization's capability to maintain essential functions, deliver services at acceptable levels, and recover quickly after disruptive incidents like cyberattacks, pandemics, or natural disasters, using proactive plans to minimize downtime and financial loss. Continuity of Operations risk refers to the uncertainty of maintaining prioritized services during a disruptive event, as well as the risk of sustained disruption after the event and its impacts on both the organization and client service.",
+      "indicators": [
+        "outage",
+        "disruption",
+        "continuity",
+        "recover",
+        "disaster"
+      ]
+    },
+    {
+      "id": "financial",
+      "name": "Financial",
+      "intentArea": "Financial",
+      "definition": "Financial risk generally refers to the uncertainty of financial loss or gains due to various external factors like market volatility, credit defaults, liquidity issues, or economic changes. It may also refer to internal factors such as operational failures, revenue or budgetary gaps between funding and service expectations. It should be noted that a variance between budget and service expectations is not inherently a financial risk, rather it should be viewed holistically with a Continuity of Operations, Partnerships and Political lens.",
+      "indicators": [
+        "cost",
+        "budget",
+        "spend",
+        "savings",
+        "overrun"
+      ]
+    },
+    {
+      "id": "fraud",
+      "name": "Fraud",
+      "intentArea": "Fraud",
+      "definition": "Fraud is any intentional act or omission designed to deceive others, resulting in the victim suffering a loss and/or the perpetrator achieving a gain. Fraud risk refers to the uncertainty or such an act occurring either from an external or internal party, and is generally affected by three factors: - Fraud Opportunity: The opportunity to commit an act of fraud is often the focus of policies, procedures, internal controls, and audit/compliance practices. Limiting the ability of individuals to engage in such behaviors is a key method of mitigating fraud risk. - Fraud Motivation: The motivation to commit an act of fraud can be the result of personal pressure (e.g. excessive debt) or organizational pressure (e.g. unreasonable performance expectations). - Fraud Rationalization: Rationalization refers to an individual's justification for committing an act of fraud. Most organizations have significant control over fraud opportunities, less control over fraud motivation, and little to no control over fraud rationalization.",
+      "indicators": [
+        "fraud",
+        "misuse",
+        "corruption",
+        "theft"
+      ]
+    },
+    {
+      "id": "human-resources-management",
+      "name": "Human Resources Management",
+      "intentArea": "Human Resources Management",
+      "definition": "Human Resource Management is the strategic and comprehensive approach to managing an organization's employees to achieve business goals, focusing on attracting, developing, and retaining talent while ensuring compliance and fostering a positive, productive environment through functions like recruitment, training, compensation, and employee relations. HR Management risk refers to the uncertainty of attracting and retaining people with appropriate skills to provide programs and services. It may also refer to workload balancing risks, position and salary risks, the uncertainty in succession planning for leaders, gaps in HR service provision, gaps in HR policy compliance, and uncertainty related to training and development.",
+      "indicators": [
+        "staff",
+        "workforce",
+        "training",
+        "morale",
+        "attrition"
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "intentArea": "Infrastructure",
+      "definition": "Infrastructure refers to the fundamental physical, organizational, and virtual structures, systems and facilities that support an organization. Infrastructure risk may refer to the uncertainty of programming, service delivery, revenue generation, unplanned expenditures, safety and/or long-term planning due to challenges with City-owned or operated physical assets (facilities, roads and bridges, parks and other land, water and sewer assets and technological assets). It may also include virtual infrastructure, such as network and cellular infrastructure, whether City-owned or external dependencies.",
+      "indicators": [
+        "infrastructure",
+        "asset",
+        "facility",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "innovation",
+      "name": "Innovation",
+      "intentArea": "Innovation",
+      "definition": "Innovation is the implementation of a new or significantly improved idea, product, service, process, or business model that creates tangible value. Innovation risk refers to the uncertainties that may result from the implementation of innovations within an organization. Risks may include, but are not limited to: feasibility of implementation, adoption by internal and external audiences, increased or decreased confidence/reputation. Innovation risks may also have digital, human resources, and financial implications.",
+      "indicators": [
+        "innovation",
+        "experiment",
+        "pilot",
+        "novel",
+        "new"
+      ]
+    },
+    {
+      "id": "partnerships",
+      "name": "Partnerships",
+      "intentArea": "Partnerships",
+      "definition": "Partnerships are shared responsibility with other parties or reliance on another party to deliver a service. These partners may be internal or external to the organization. Partnership risk refers to uncertainties related to governance, general roles and responsibilities, accountability, and communication. Partnership risks may include but are not limited to: Vendor or other 3rd party contracts, interdepartmental program delivery, cooperation with other organizations.",
+      "indicators": [
+        "partner",
+        "vendor",
+        "supplier",
+        "collaboration",
+        "third-party"
+      ]
+    },
+    {
+      "id": "political",
+      "name": "Political",
+      "intentArea": "Political",
+      "definition": "Political risk refers to the uncertainties of operating in a political environment, including the potential for changes in political leadership, priorities, policy direction, or governmental relationships affecting the municipality's ability to achieve its strategic objectives, deliver services, or maintain stability. This includes risks arising from election outcomes, shifts in council priorities, intergovernmental tensions, legislative or regulatory changes, public opinion pressures, advocacy group influence, and the politicization of key decisions. Political risks may lead to uncertainty, delays, resource constraints, or changes in long-term plans.",
+      "indicators": [
+        "council",
+        "political",
+        "public",
+        "governance"
+      ]
+    },
+    {
+      "id": "reputation",
+      "name": "Reputation",
+      "intentArea": "Reputation",
+      "definition": "Reputation refers to the positive or negative perception of an organization by citizens, visitors, businesses, partners and other levels of government. The loss of reputation may arise from risks including, but not limited to: service failures or disruptions, ineffective communication strategies, unpopular decisions, behavior of staff or partners. Loss of reputation may result in negative media coverage, reduced public support and participation in municipal services and processes and may affect partnerships and lower staff morale. Loss of reputation may have financial consequences, including reduced revenue from poor participation in revenue generating services.",
+      "indicators": [
+        "reputation",
+        "trust",
+        "media",
+        "public",
+        "complaint"
+      ]
+    },
+    {
+      "id": "staff-and-public-health-and-safety",
+      "name": "Staff and Public Health and Safety",
+      "intentArea": "Staff and Public Health and Safety",
+      "definition": "Staff and public health and safety refers to the need to protect employees and others who interact with the organization and its services, facilities, programs, and assets. Some City operations and services carry an inherent risk of injury or illness, and risks may arise from elements such as, but not limited to: workplace safety practices, emergency situations, lack of situational awareness, education or skill, environmental hazards, infectious diseases, infrastructure failures and/or unsafe conditions.",
+      "indicators": [
+        "safety",
+        "injury",
+        "health",
+        "wellbeing",
+        "hazard"
+      ]
+    },
+    {
+      "id": "technology",
+      "name": "Technology",
+      "intentArea": "Technology",
+      "definition": "Technological risk refers generally to uncertainties within the domain of information technology (IT) service delivery and support. Risk events may include service disruptions or losses, system defects, failures or faults, gaps between business requirements and enabling technology as well as technology lifecycle considerations. Digital risk refers to anything involving technology or data that could affect how the City operates or delivers services. This includes cybersecurity issues, threats to operational systems, loss of data privacy, and technology not supporting the City's priorities.",
+      "indicators": [
+        "technology",
+        "system",
+        "integration",
+        "platform",
+        "API"
+      ]
+    }
+  ]
+}

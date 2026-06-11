@@ -1,0 +1,1593 @@
+{
+  "version": "1.0.0",
+  "source": "City of Ottawa VRF_Scorecard_MVP — Sample CSI Initiatives.csv",
+  "examples": [
+    {
+      "id": "open-data-databoard",
+      "label": "Open Data Databoard (CMO)",
+      "department": "CMO",
+      "departmentName": "City Manager's Office",
+      "title": "Open Data Databoard",
+      "description": "The City of Ottawa is committed to being accountable and conducting City business in an open and transparent manner.  The Open Data Dashboard was created to visualize, explore and analyze all of the data published through the City of Ottawa's Open Data Portal.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "open-ottawa-redesign",
+      "label": "Open Ottawa Redesign (CMO)",
+      "department": "CMO",
+      "departmentName": "City Manager's Office",
+      "title": "Open Ottawa Redesign",
+      "description": "Open Ottawa has been redesigned with the end user in mind. To that end, we have updated the look and feel of the site; streamlined and reorganized the data and information categories;  and added data stories, which combines narrative content, data visualizations, and media inputs to highlight how data driven and evidence-based information are supporting initiatives to better the lives of residents.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "service-review-idea-categorization-and-analysis",
+      "label": "Service Review Idea Categorization and Analysis (CMO)",
+      "department": "CMO",
+      "departmentName": "City Manager's Office",
+      "title": "Service Review Idea Categorization and Analysis",
+      "description": "Led one of the first use cases of AI and Chat GPT in the organization, to analyze ideas received for the Service Review program. We collaborated with ITS Automation team to build an AI model summarize each input with a title, key words, sentiment analysis and themes, while also cleansing the text from any personal identifiers or profanities.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation",
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "3-1-1-reporting-portal",
+      "label": "3-1-1 Reporting Portal (CSSD)",
+      "department": "CSSD",
+      "departmentName": "Community and Social Services",
+      "title": "3-1-1 Reporting Portal",
+      "description": "Replacing current ArcGIS encampment reporting tool with a new online 311 reporting portal. This will allow residents from across the city to report encampments as well as streamline responses. The current ArcGIS approach only allows reporting by internal and external partners where the new 311 reporting tool will be open the general public.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Capacity Creation",
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "adaptive-reuse-for-transitional-housing",
+      "label": "Adaptive Reuse for Transitional Housing (CSSD)",
+      "department": "CSSD",
+      "departmentName": "Community and Social Services",
+      "title": "Adaptive Reuse for Transitional Housing",
+      "description": "Vacant Office Building transformed into transitional housing:\nAdaptive reuse of a Queen Street office into transitional housing (approx. 140 pods) with 24/7 supports operated by CCI Ottawa",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Direct Cost Savings",
+        "Capacity Creation",
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "balanced-case-management-strategy",
+      "label": "Balanced Case Management Strategy (CSSD)",
+      "department": "CSSD",
+      "departmentName": "Community and Social Services",
+      "title": "Balanced Case Management Strategy",
+      "description": "As part of case management, I believe that each CW should identify clients' barriers, especially Client who are struggling with mental health . Those Client need intense case management. I suggest that management team define the manageable percentage of Clients dealing with mental health in each caseload. This indicator should help balance the caseload, ensure proper case management, and supports Case workers' mental health.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "children-s-services-online-platform",
+      "label": "Children's Services Online Platform (CSSD)",
+      "department": "CSSD",
+      "departmentName": "Community and Social Services",
+      "title": "Children's Services Online Platform",
+      "description": "Implementation of a new Children's Services online platform called Children's Services Online (CSO), offering families a streamlined, accessible way to apply for child care and fee subsidies. \n\nThe new system allows document uploads from home or mobile devices, anytime/anywhere, eliminating the need for in-person visits to City of Ottawa offices.\n\nThis flexibility supports families with limited mobility, transportation challenges, or non-traditional work schedules, helping to reduce barriers and increase equity in access to services. An integrated first point of access and simplified application forms make it easier for families, particularly those facing systemic barriers, to complete applications and navigate the system.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "children-s-services-online-system-cso-implementation",
+      "label": "Children's Services Online System (CSO) Implementation (CSSD)",
+      "department": "CSSD",
+      "departmentName": "Community and Social Services",
+      "title": "Children's Services Online System (CSO) Implementation",
+      "description": "The launch of the Children's Services Online platform offers families a streamlined, accessible way to apply for child care and fee subsidies. The new system allows document uploads from home or mobile devices, anytime /  anywhere,  eliminating the need for in-person visits to City of Ottawa offices.\nThis flexibility supports families with limited mobility, transportation challenges, or non-traditional work schedules, helping to reduce barriers and increase equity in access to services. An integrated first point of access and simplified application forms make it easier for families, particularly those facing systemic barriers, to complete applications and navigate the system.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "computer-requirement-and-update",
+      "label": "Computer requirement and update (CSSD)",
+      "department": "CSSD",
+      "departmentName": "Community and Social Services",
+      "title": "Computer requirement and update",
+      "description": "Every Unit in Peter D Clark needs a computer where worker is able to participate surveys using the PC in each unit. Computers should be updated every 3mos in order to accommodate number of users and stop from crashing.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "cultural-observance-planning-working-group",
+      "label": "Cultural Observance Planning Working Group (CSSD)",
+      "department": "CSSD",
+      "departmentName": "Community and Social Services",
+      "title": "Cultural Observance Planning Working Group",
+      "description": "Coordinated EDIB Communications and Cultural Observance Planning: Creation of a cross-departmental working group, shared campaign materials, and enhanced planning tools to support inclusive, consistent communication for EDIB events and observances.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation",
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "edib-communications",
+      "label": "EDIB Communications (CSSD)",
+      "department": "CSSD",
+      "departmentName": "Community and Social Services",
+      "title": "EDIB Communications",
+      "description": "Coordinated equity, diversity, inclusion and belonging (EDIB) Communications and Cultural Observance Planning: Creation of a cross-departmental working group, shared campaign materials, and enhanced planning tools to support inclusive, consistent communication for EDIB events and observances.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "housing-allowances",
+      "label": "Housing Allowances (CSSD)",
+      "department": "CSSD",
+      "departmentName": "Community and Social Services",
+      "title": "Housing Allowances",
+      "description": "The Housing and Homelessness Service Area is responsible to deliver housing allowances and benefits to over 1300 clients. This entails the information to be duplicated from the central registry, into various excel sheets and corresponding word templates to produce letters of acceptance and renewal packages. We embarked on the development of a digital tool using Power Platforms tools provided by IT.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "human-services-integration-team",
+      "label": "Human Services Integration Team (CSSD)",
+      "department": "CSSD",
+      "departmentName": "Community and Social Services",
+      "title": "Human Services Integration Team",
+      "description": "Human Services Integration Team - Vulnerable residents navigating a social services system face several challenges to their precarious position and limited resources. There are various difficulties that can be nested in limited access of information, complexity of procedures, stigma, discrimination, lack of social supports, transportation, systemic barriers, power imbalance. Identified as a measure under the Term of Council Priorities to simplify access to services, HSI is responsible in the department's adoption of an Integrated Consent Form through training initiatives. The integrated consents are tools that are used in partnership with the client. When signed, the consents allow staff, in collaboration with clients and community agencies, to share information and coordinate services. The consents are legal documents that adhere to privacy laws to ensure the protection of clients' personal information so that relevant information can be shared across programs to facilitate improved access to services.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "ipads-for-workers",
+      "label": "Ipads for Workers (CSSD)",
+      "department": "CSSD",
+      "departmentName": "Community and Social Services",
+      "title": "Ipads for Workers",
+      "description": "Buy Ipads- for survey related purposes every now and then for workers. Workers tend not To participate surveys due to the reason that their cellphones does not have Wi-Fi to connect and not able to do it on their phone data.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "older-adult-plan-survey-analysis",
+      "label": "Older Adult Plan Survey Analysis (CSSD)",
+      "department": "CSSD",
+      "departmentName": "Community and Social Services",
+      "title": "Older Adult Plan Survey Analysis",
+      "description": "In Q4 2024, two of our teams collaborated to develop an AI-integrated tool that supported the OAP survey analysis. Here's a high-level overview of what we accomplished:\n-        Data Cleanup & Consolidation: We merged data from the Engage Ottawa survey and in-person sessions into a single SharePoint list.\n-        AI-Powered Analysis of Open-Ended Responses:\n     o   Data Filter: Cleanup of Data, Grammatical corrections and removing any profanities from the ideas received.\n    o   Idea Titles: Automatically generated concise  titles for each idea to enable quick scanning.\n   o   Keyword Identification: Highlighted predefined keywords within each idea to surface key themes.\n   o   Thematic Categorization: Used AI to classify ideas into predefined thematic categories.\n-        Dashboard Development:\n   o   Created a dashboard for both quantitative and qualitative data analysis to better understand the input and identify priorities.\n   o   Developed a stakeholder-facing dashboard to visualize the flow from ideas to priorities, emphasizing accountability and transparency.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation",
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "ottawa-stops-hate-together-campaign",
+      "label": "Ottawa Stops Hate Together Campaign (CSSD)",
+      "department": "CSSD",
+      "departmentName": "Community and Social Services",
+      "title": "Ottawa Stops Hate Together Campaign",
+      "description": "CityStudio collaboration on Ottawa Stops Hate Together campaign: Partnered with Algonquin College, Carleton University and University of Ottawa students through CityStudio to generate creative ideas for the City's Anti-Hate public education campaign.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "point-in-time-count-online-survey",
+      "label": "Point-in-Time Count Online Survey (CSSD)",
+      "department": "CSSD",
+      "departmentName": "Community and Social Services",
+      "title": "Point-in-Time Count Online Survey",
+      "description": "The Nationally coordinated 2024 Point-in-Time count switched from a paper survey collection to an online survey. With the extension of the survey period from 24 hours to five days, going digital provided easier access for 80 different partners to access the survey. Although extending the survey period required increased staff hours dedicated to community response, we coordinated with 311 to respond to inquiries after hours. \n\nMoving to digital we were able to save the extensive costs of printing over 2800 three-page surveys in addition to the necessary staff hours to complete the subsequent data entry. This streamlined process and will enable faster, more efficient reporting. Also allowed for more collaboration with community partners as was able to provide unique links that will generate agency specific data if requested. Previously, this took 2.5 FTEs 3 weeks to upload into a digital format for analysis.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "point-in-time-survey-automation",
+      "label": "Point-in-Time Survey Automation (CSSD)",
+      "department": "CSSD",
+      "departmentName": "Community and Social Services",
+      "title": "Point-in-Time Survey Automation",
+      "description": "The Nationally coordinated 2024 Point-in-Time count switched from a paper survey collection to an online survey. With the extension of the survey period from 24 hours to five days, going digital provided easier access for 80 different partners to access the survey. \nAlthough extending the survey period required increased staff hours dedicated to community response, we coordinated with 311 to respond to inquiries after hours.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation",
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "secure-file-sharing",
+      "label": "Secure File Sharing (CSSD)",
+      "department": "CSSD",
+      "departmentName": "Community and Social Services",
+      "title": "Secure File Sharing",
+      "description": "Streamline the process and improve security of documents requested as part of Routine Disclosures and Active Dissemination Plan by implementing a secure file sharing service.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "9-1-1-service-review",
+      "label": "9-1-1 Service Review (EPS)",
+      "department": "EPS",
+      "departmentName": "Emergency and Protective Services",
+      "title": "9-1-1 Service Review",
+      "description": "PSS is undertaking a service review of the 9-1-1 call intake function including staffing and performance metrics against industry standards and other jurisdictions. As part of this analysis, the City is also assessing the cost-benefit of the Ottawa Police Service continuing as the call intake service provider.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "by-law-and-regulatory-services-headquarters-retrofit",
+      "label": "By-law and Regulatory Services Headquarters Retrofit (EPS)",
+      "department": "EPS",
+      "departmentName": "Emergency and Protective Services",
+      "title": "By-law and Regulatory Services Headquarters Retrofit",
+      "description": "By-law and Regulatory Services has commenced Phase 1 of its headquarters retrofit, focusing on the ground floor interior fit-up designed to improve accessibility and functionality. This includes the construction of an improved public entrance with an accessible ramp, a modernized client service desk and waiting area, a universal washroom, and a secure cash handling room. The renovation will also deliver accessible workstations, updated staff washrooms, and new meeting and storage space to support daily operations. Upgrades will ensure the space meets AODA and Cash Handling standards. These changes will create a safer, more inclusive environment for both staff and clients, while aligning with Council directives and corporate service goals.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "licensing-by-law-review",
+      "label": "Licensing By-law Review (EPS)",
+      "department": "EPS",
+      "departmentName": "Emergency and Protective Services",
+      "title": "Licensing By-law Review",
+      "description": "Licensing By-law Review will be brought forward to EPPSC in Q2 2026 - The Council-approved review of the City's Licensing By-law (No. 2002-189) is currently underway. This multi-year project has included a review of existing licensing regulations; processes and public-facing materials; consultation with licensees, business improvement areas and relevant industry groups; and benchmarking licensing regulations and processes in other municipalities. \n\nSpecifically, this review focusses on: modernizing existing licensing regulations and requirements; eliminating duplication and inconsistencies within the by-law and exploring opportunities to reduce red-tape and administrative burdens.\n\nThe review also considers non-regulatory issues, such as incorporating technology into the business licensing process and how to better support and inform businesses through both the initial application and license renewal processes",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "online-licensing",
+      "label": "Online Licensing (EPS)",
+      "department": "EPS",
+      "departmentName": "Emergency and Protective Services",
+      "title": "Online Licensing",
+      "description": "By-law and Regulatory Services is committed to contributing to Council Strategic Objective #21 by implementing  a comprehensive online business licensing platform to streamline and digitalize the end-to-end licensing and permitting process. \n\nThis platform will enable clients to submit applications and payments online, significantly reducing processing times and the need for in-person visits. The system will provide staff with real-time access to application data, support coordination  for required approvals, and improve the ability to track requests from intake through to issuance. \n\nThis comprehensive platform aims to enhance client experience by reducing administrative burden/barriers and streamlining workflows, positioning Ottawa as a top destination for businesses. \n\nNew system is expected to roll out in Q1 2026",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "special-events-by-law-review",
+      "label": "Special Events By-law Review (EPS)",
+      "department": "EPS",
+      "departmentName": "Emergency and Protective Services",
+      "title": "Special Events By-law Review",
+      "description": "",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "3-1-1-phone-tree-menu",
+      "label": "3-1-1 phone tree menu (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "3-1-1 phone tree menu",
+      "description": "The 3-1-1 phone tree menu is being reviewed to make options for call clearer and faster for callers.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "ariba-contract-notifications",
+      "label": "Ariba Contract notifications (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Ariba Contract notifications",
+      "description": "Ariba users will now receive automated notifications leading up to their contract renewal dates which will prompt them to contact the procurement team for support with completing either contract renewals or extensions.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "ariba-contract-notifications",
+      "label": "Ariba Contract notifications (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Ariba Contract notifications",
+      "description": "Ariba users will now receive automated notifications leading up to their contract renewal dates which will prompt them to contact the procurement team for support with completing either contract renewals or extensions.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "ask-my-data-poc",
+      "label": "Ask my Data POC (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Ask my Data POC",
+      "description": "Promotion of a new AI-based feature in PowerBI. By writing queries in plain English, users can create visual representations of data, such as charts, graphs, and tables, without requiring extensive technical skills.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "automated-training-notifications",
+      "label": "Automated Training Notifications (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Automated Training Notifications",
+      "description": "Tailored training notifications that are sent automatically to let staff and their supervisors know when mandatory training needs to be completed. Previously this was a manually and impersonable process.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "automated-training-notifications",
+      "label": "Automated Training Notifications (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Automated Training Notifications",
+      "description": "Tailored training notifications that are sent automatically to let staff and their supervisors know when mandatory training needs to be completed. Previously this was a manually and impersonable process.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "azure-devops-standardization",
+      "label": "Azure DevOps Standardization (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Azure DevOps Standardization",
+      "description": "Many teams are using Azure DevOps in slightly different ways, which is leading to inconsistent and poor data quality. Implement governance and standards for Azure DevOps to streamline processes, enhance efficiency, and improve data quality for decision-making.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "bring-technician-work-in-house",
+      "label": "Bring Technician Work In-House (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Bring Technician Work In-House",
+      "description": "Bring approximate 5000 hours of contracted fleet maintenance work in-house, moving away from increasing vendor costs.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "budget-app-for-pressure-submission-and-reporting-efficiency",
+      "label": "Budget App for Pressure Submission & Reporting Efficiency (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Budget App for Pressure Submission & Reporting Efficiency",
+      "description": "For the 2026 budget cycle, we developed a dedicated budget application to streamline the submission of budget pressures.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "budget-explorer",
+      "label": "Budget Explorer (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Budget Explorer",
+      "description": "With a complex budget, the City has introduced the 2025 Budget Explorer to make understanding and engaging in the budget process easier. The Budget Explorer breaks down Draft Budget 2025 in a clear, engaging, and interactive way. Instead of rows of tables and black and white text, the Budget Explorer uses illustrations and online features to bring the various parts of Budget 2025 to life. Between Nov 2024 and Jan 2025 the Budget Explorer received almost 4,000 views.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "budget-literacy-and-transparency",
+      "label": "Budget Literacy and Transparency (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Budget Literacy and Transparency",
+      "description": "We continue to undertake a comprehensive consultation and engagement process as part of our annual budget process. The goal of these activities is to offer a wide range of options for residents to be informed and provide input. The resulting feedback ensures transparency and accountability by aligning our budget decisions with community needs and priorities.  \n\nOver this Term of Council, staff have continued to improve and find opportunities to further enhance municipal budget literacy, improve accessibility of budget documentation, provide enhanced reporting in different formats, and emphasize investments towards services and programs that residents rely on and care about the most. Some of these enhancements include:\n-\tBudget Magazine\n-\tBudget Explorer\n-\tSimplified information on Ottawa.ca\n-\tBudget Document Guide\n-\tEnhanced social media promotion and electronic advertisement\n-\tPromotional video on how to have your say!\n\nBased on input from Councillors and the information from Bloomberg Associates, we are pleased to offer the following enhancements as part of Draft Budget 2026:\n-\tEnhanced Councillor Budget Toolkit\n-\tTwo touchpoints with members of Council, the Mayor, City Manager and Chief Financial Officer to discuss the budget process and priorities\n-\tOpportunities for Councillor-led public consultations from April to December\n-\tSimplified budget presentation for ward consultations\n-\tContinuous improvement of the ward summaries document\n-\tEarlier public engagement survey \n-\tIncreased reporting of how resident feedback is considered in the creation of the draft budget\n-\tNew resources to further support budget literacy for residents (ex. graphics, budget pamphlet, FAQ's and promotion of reports that impact the draft budget)",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "budget-literacy-and-transparency",
+      "label": "Budget Literacy and Transparency (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Budget Literacy and Transparency",
+      "description": "The City enhanced its annual budget engagement process for the Draft 2026 Budget with new tools and resources to increase transparency and resident participation with the following:",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "centralized-supply-chain",
+      "label": "Centralized supply chain (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Centralized supply chain",
+      "description": "A new centralized supply chain model that allows for bulk purchasing and rebates. Managed by Fleet Services to meet the needs of all client departments",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "cx360",
+      "label": "CX360 (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "CX360",
+      "description": "Review and improve entire Service Request lifecycle from intake to resolution.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "data-classification-tool",
+      "label": "Data Classification Tool (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Data Classification Tool",
+      "description": "Technology Security created a data classification tool that's pinned to the City's Teams sidebar, allowing staff to answer a few questions to help them assess the sensitivity of data they're working with.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "dedicated-training-bay-for-fleet-services",
+      "label": "Dedicated training bay for Fleet Services (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Dedicated training bay for Fleet Services",
+      "description": "Creation of a dedicated training bay where staff can practice and upskill on a variety of techniques. This provides a safe and comfortable learning environment for both trainers and staff allowing them to get out of the elements.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "enterprise-systems-modernization",
+      "label": "Enterprise Systems Modernization (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Enterprise Systems Modernization",
+      "description": "Finance system transformation to implement new SAP S4 technology platform.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "g1-g2-joint-approval-automation",
+      "label": "G1/G2 Joint Approval Automation (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "G1/G2 Joint Approval Automation",
+      "description": "Part of Demand Management for Technology resources, two check-points: readiness for options analysis, and a decision on moving forward with result of option analysis.  Wherever possible, streamlined this to a single joint-approval check-point, where an options analysis (purpose of which is ensuring alignment with Technology Rationalization Policy) will not add value (e.g. project is tied to recent implementations or we know there is no in-house option).",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "increase-for-3-quotes",
+      "label": "Increase for 3 quotes (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Increase for 3 quotes",
+      "description": "Bylaw updates to allow for a dept led 3-quote process up to $125K",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "indirect-tax-itc-recovery",
+      "label": "Indirect Tax ITC Recovery (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Indirect Tax ITC Recovery",
+      "description": "Annual review of Input Tax Credits that could have been claimed based on tax regulations and updates to regulations.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "it-ba-center-of-excellence",
+      "label": "IT BA Center of Excellence (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "IT BA Center of Excellence",
+      "description": "Developing a centralized SharePoint site with information on business analysis tips, tricks and templates to help each other improve.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "language-training-and-testing",
+      "label": "Language Training & Testing (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Language Training & Testing",
+      "description": "Digital language training manuals: Developed and piloted new digital language training manuals with our language partner. Proprietary tool standardizes course material and testing.\nNew Language Assessment: Developed new generic assessment in English & French for 4 language skills (oral expression, oral comprehension, reading and writing) that are language based. Results are transferable between roles.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "launch-of-the-administrative-penalty-system",
+      "label": "Launch of the Administrative Penalty System (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Launch of the Administrative Penalty System",
+      "description": "Launch of the Administrative Penalty System (APS) for parking tickets which brings the resolution process of tickets in house rather than going through Provincial Courts.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Capacity Creation",
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "move-contracted-technician-work-in-house",
+      "label": "Move Contracted Technician Work In-House (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Move Contracted Technician Work In-House",
+      "description": "Bring approximate 5000 hours of contracted fleet maintenance work in-house, moving away from increasing vendor costs.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "name-change-workflow",
+      "label": "Name Change Workflow (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Name Change Workflow",
+      "description": "NEO eliminated the manual steps in the employee name change process, reducing the risk of errors and improving overall system integrity and user experience.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "new-online-service-request-options",
+      "label": "New online service request options (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "New online service request options",
+      "description": "Addition of new service request options online to reduce the need to call 3-1-1 \n\nLatest additions (agile approach): \nBasement flooding \nHomeless encampments \nRat sightings",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "ottawa-leads-program",
+      "label": "Ottawa Leads Program (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Ottawa Leads Program",
+      "description": "Comprehensive leadership development consisting of 4 distinct streams tailored to cultivate and enhance specific leadership skills and competencies. \n\nExpands our leadership development programs. Tailored to hone new and emerging leaders' skills, the program benefits all leaders and aspiring leaders in the organization.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "prudent-investor",
+      "label": "Prudent Investor (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Prudent Investor",
+      "description": "Implementation of Prudent Investor to broaden the City's investment portfolio and balance risk.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "reduce-rental-fleet-inventory-for-units-that-have-been-rente",
+      "label": "Reduce Rental Fleet Inventory for units that have been rented for more than two years (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Reduce Rental Fleet Inventory for units that have been rented for more than two years",
+      "description": "Review all rental fleet units that have been in the operations for more than two years.  Where there is a bona fide business need for the units, get one-time funding to purchase new units which will reduce operational deficits and see savings over the lifecycle of the units.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "review-of-time-management-training",
+      "label": "Review of Time Management training (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Review of Time Management training",
+      "description": "Time management is touched on in a variety of training. \nWe will review if there is an opportunity to integrate this content into Ottawa Leads Technical Leader stream: employee Wellness & Accommodation, or Attendance Management.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "sap-daily-restoration-testing",
+      "label": "SAP Daily Restoration Testing (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "SAP Daily Restoration Testing",
+      "description": "The SAP team optimized their daily restoration testing by pulling only key information to reduce memory and storage usage.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "siris-technical-footprint",
+      "label": "SIRIS Technical Footprint (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "SIRIS Technical Footprint",
+      "description": "The Dynamics team in AMB reduced the number of core systems relied upon by SIRIS from 6 to 4, providing a simpler and faster support model and reducing the chances of outages.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "standardized-training-material-for-drivers",
+      "label": "Standardized training material for drivers (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Standardized training material for drivers",
+      "description": "Includes driver expectations, CVOR management and safe practices, and implementation of driver risk assessments for pre-hire and performance concerns",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "straight-through-processing",
+      "label": "Straight through processing (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Straight through processing",
+      "description": "Supply introduced contract terms that maximize the City's credit card rebate, reducing the manual work of unbundling transactions and stabilizing the revenue flow from the credit card rebate.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "streamlining-budget-documentation",
+      "label": "Streamlining Budget Documentation (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Streamlining Budget Documentation",
+      "description": "As part of our continuous improvement efforts, we have removed non-value-added elements from budget documentation, such as spending plans and operating impact sections in capital templates.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "student-orientation",
+      "label": "Student Orientation (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Student Orientation",
+      "description": "The first corporate offering provided an overview of the City, and breakout sessions to network with other students and staff in areas of interest. It included a welcome by the CHRO and positioned new student employees to better understand and explore careers at the City, allowing for improved recruitment possibilities.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "summer-student-equipment-requests",
+      "label": "Summer Student Equipment Requests (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Summer Student Equipment Requests",
+      "description": "The Frontline Services team and Automation team standardized and automated the process for requesting equipment for summer students, reducing manual processing time by around 90%.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "temporary-account-deactivation-emergency-terminations-and-re",
+      "label": "Temporary Account Deactivation, Emergency Terminations and Reinstatement (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Temporary Account Deactivation, Emergency Terminations and Reinstatement",
+      "description": "1.\tEmployee Account Deactivation Form - To be used for temporary account suspensions when there is a possibility that the employee may return.\n2.\tEmployee Emergency Termination Form - To be used when an employee is not returning, and the account will be terminated immediately in SAP after processing the form.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "transformation-of-ottawa-ca",
+      "label": "Transformation of ottawa.ca (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Transformation of ottawa.ca",
+      "description": "A new look and feel \nA priority message carousel on the home page for seasonal, emergency or topical messages \nA persistent 3-1-1 link that is now visible on the top of every page \nRe-design of pages to better highlight key info and seasonal content \nImproved search function  \nNew interactive tools that will help with resident education of programs and services",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "update-to-city-s-it-insurance-requirements",
+      "label": "Update to City's IT Insurance requirements (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Update to City's IT Insurance requirements",
+      "description": "Lowering City's standard technology insurance requirements.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "update-to-holdback-requirements",
+      "label": "Update to holdback requirements (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Update to holdback requirements",
+      "description": "Increased holdback requirements from $25K to $50K on Construction contracts.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "water-notifications",
+      "label": "Water Notifications (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Water Notifications",
+      "description": "Water usage is a pay per use service and while leaks on private property are the responsibiity of the homeowner the City has options to support them. The latest innovation is the review of the possibility to automatically enroll all properties who have a MySO account into water usage notifications when unusal ativity happens.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "water-usage-notifications",
+      "label": "Water Usage notifications (FCS)",
+      "department": "FCS",
+      "departmentName": "Finance and Corporate Services Department",
+      "title": "Water Usage notifications",
+      "description": "Water usage is a pay per use service and while leaks on private property are the responsibility of the homeowner the City has options to support them. The latest innovation is the review of the possibility to automatically enroll all properties who have a MySO account into water usage notifications when unusual activity happens.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "end-of-rv-waste-disposal-program",
+      "label": "End of RV Waste Disposal Program (IWSD)",
+      "department": "IWSD",
+      "departmentName": "Infrastructure and Water Services Department",
+      "title": "End of RV Waste Disposal Program",
+      "description": "Approx. 500 RVs visit ROPEC annually to dispose of their waste  \n\nMemoranda issued by Infrastructure and Water Services | City of Ottawa",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Direct Cost Savings",
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "hydrant-snow-clearing-pilot",
+      "label": "Hydrant Snow Clearing Pilot (IWSD)",
+      "department": "IWSD",
+      "departmentName": "Infrastructure and Water Services Department",
+      "title": "Hydrant Snow Clearing Pilot",
+      "description": "Review of hydrant snow clearing program to improve service request timelines and to promote a more efficient use of resources.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "hydro-optimization",
+      "label": "Hydro Optimization (IWSD)",
+      "department": "IWSD",
+      "departmentName": "Infrastructure and Water Services Department",
+      "title": "Hydro Optimization",
+      "description": "To offset energy consumption during peak hours and reduce the global adjustment charges for the following year staff:\n- reduced the plant's use of gas-fired generators by approximately half,\n- decreased the City's use of the hydro grid during peak hours, and\n- reduced the generation of 200 million litres of wastewater by enhancing backwash process",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "increased-blanking-deposits",
+      "label": "Increased Blanking Deposits (IWSD)",
+      "department": "IWSD",
+      "departmentName": "Infrastructure and Water Services Department",
+      "title": "Increased Blanking Deposits",
+      "description": "Increased the fees associated with the temporary or permanent decommissioning of a pipe by means of plugging, capping or other method",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "leak-detection-ai-pilot",
+      "label": "Leak Detection AI Pilot (IWSD)",
+      "department": "IWSD",
+      "departmentName": "Infrastructure and Water Services Department",
+      "title": "Leak Detection AI Pilot",
+      "description": "Loggers will be installed on valves in the water distribution system to listen for undetected leaks during off-peak hours.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Capacity Creation",
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "new-service-fee-for-missed-appointments",
+      "label": "New Service Fee for Missed Appointments (IWSD)",
+      "department": "IWSD",
+      "departmentName": "Infrastructure and Water Services Department",
+      "title": "New Service Fee for Missed Appointments",
+      "description": "Service Fee for Cancelled or Rescheduled Drinking Water service appointments",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Direct Cost Savings",
+        "Capacity Creation",
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "residential-protective-plumbing-rpp-compassionate-grant-prog",
+      "label": "Residential Protective Plumbing (RPP) / Compassionate Grant programs (IWSD)",
+      "department": "IWSD",
+      "departmentName": "Infrastructure and Water Services Department",
+      "title": "Residential Protective Plumbing (RPP) / Compassionate Grant programs",
+      "description": "Enhanced two financial assistance programs that help support residents before and after a flooding event",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "development-application-process-improvement-review",
+      "label": "Development Application Process Improvement Review (PDBS)",
+      "department": "PDBS",
+      "departmentName": "Planning, Development and Building Services",
+      "title": "Development Application Process Improvement Review",
+      "description": "Implementation of Bill 109 and 185 adaptations\n\nThe Development Review Process was significantly amended following Council approval in June 2023 of the Bill 109 Implementation Phase 2 report, which introduced:\n- The Planning Services Team Approach\n- Terms of References for each item on the Development Application Study Policy By-law (DASP)\n-  Updated the 'Development Applications Information and Materials' webpage\n - Approved new staff to support the new and changing responsibilities of the municipality as a result of provincial legislation, and communication and training for staff and industry. \n\nSince July 1, 2023, staff were hired, the Development Review All Wards team was established, external SharePoint site for technical agency circulation was launched, a pre-consultation factsheet was published, and an escalation process was established.??\n\nUpcoming continuous improvement includes: Site Plan Control By-law review to align with Bill 23, Delegation of Authority for Minor Zoning By-law Amendments, High-Rise Urban Design Guidelines update, review of DASP Terms of References, and Bill 185 adaptations and Bill 109 monitoring report.?\n\n?Bill 185 became law in June 2024 and significantly impacts development review. Committee and Council will consider a staff report in the fall with proposed adaptations.?",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Improved Service Delivery",
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "housing-approval-dashboard",
+      "label": "Housing Approval Dashboard (PDBS)",
+      "department": "PDBS",
+      "departmentName": "Planning, Development and Building Services",
+      "title": "Housing Approval Dashboard",
+      "description": "In response to the growing demand for greater transparency and timely information on housing activity, the City of Ottawa has developed a new housing approvals dashboard, a centralized, interactive tool designed to track Ottawa's residential development activity. The dashboard was created following a Council direction to monitor both Planning Act application approvals and building permits issued for new dwellings.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "land-management-system",
+      "label": "Land Management System (PDBS)",
+      "department": "PDBS",
+      "departmentName": "Planning, Development and Building Services",
+      "title": "Land Management System",
+      "description": "Automation and digital practices - The City is actively applying best practices to optimize and enhance online, self-serve permit application processes for residents and businesses through the implementation of our new digital permit management system called the Land Management Solution (LMS). This new technology solution was introduced in September 2024 and includes a customer portal that allows a user to complete the entire progress online including the ability to fully submit a permit application on any mobile device. This new paperless process allows the building permit applicant to enter information, upload plans and submit payment remotely, without the need to visit a Client Service Centre. Applicants may check on the progress of their application by logging in to their customer portal to view updates and comments from Building Code Services staff and track the status of their application through other service areas forming part of the building permit approval process (such as Development Review & Heritage Planning). Additionally, clients are able to request required inspections from their mobile device and track the status of their applications and permits.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation",
+        "Improved Service Delivery",
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "new-housing-support",
+      "label": "New Housing Support (PDBS)",
+      "department": "PDBS",
+      "departmentName": "Planning, Development and Building Services",
+      "title": "New Housing Support",
+      "description": "",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Improved Service Delivery",
+        "Capacity Creation",
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "review-organizational-structure",
+      "label": "Review Organizational Structure (PDBS)",
+      "department": "PDBS",
+      "departmentName": "Planning, Development and Building Services",
+      "title": "Review Organizational Structure",
+      "description": "",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "centralized-public-engagement-working-group",
+      "label": "Centralized Public Engagement Working Group (PIMR)",
+      "department": "PIMR",
+      "departmentName": "Public Information and Media Relations",
+      "title": "Centralized Public Engagement Working Group",
+      "description": "",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "creation-of-dedicated-media-room",
+      "label": "Creation of dedicated media room (PIMR)",
+      "department": "PIMR",
+      "departmentName": "Public Information and Media Relations",
+      "title": "Creation of dedicated media room",
+      "description": "Dedicated media room will allow PIMR to more easily organize news conferences to convey important information to the public, including in emergencies.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Improved Service Delivery",
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "social-media-monitoring-tool",
+      "label": "Social media monitoring tool (PIMR)",
+      "department": "PIMR",
+      "departmentName": "Public Information and Media Relations",
+      "title": "Social media monitoring tool",
+      "description": "PIMR is exploring new tools that can monitor social media comments in real time. This would support the City in promptly hiding toxic content and spam on its social media platforms and responding more quickly to residents' comments",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "license-plate-recognition-pilot-project",
+      "label": "*License Plate Recognition Pilot Project? (PWD)",
+      "department": "PWD",
+      "departmentName": "Public Works",
+      "title": "*License Plate Recognition Pilot Project?",
+      "description": "Piloting vehicle-mounted license plate recognition (LPR) technology which will reduce the need for manual surveys to collect occupancy and turnover data. If successful, this will reduce the requirement for the manual surveys which are often contracted out due to the number of resources required.? In 2024, $280K was spent on these contracted services.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "roads-mms-mobility-project",
+      "label": "*Roads MMS Mobility Project (PWD)",
+      "department": "PWD",
+      "departmentName": "Public Works",
+      "title": "*Roads MMS Mobility Project",
+      "description": "In its last phase of implementation, the new automated work management process leverages technology (SAP Fiori). It empowers field staff by giving them the technology to stay in the field to complete their paperwork, while providing better, real-time data for analysis. The move to a mobile workforce improves service and reduces the cost of delivering those services. Therefore, we anticipate improved time management, workflow and management reporting, and consistent work management across Roads Services.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "cleaning-the-capital-waste-collection",
+      "label": "Cleaning the Capital Waste Collection (PWD)",
+      "department": "PWD",
+      "departmentName": "Public Works",
+      "title": "Cleaning the Capital Waste Collection",
+      "description": "Since the change of the 3-item waste collection limit, yellow bags were introduced in collection kits. This has prompted volunteers to take home their collection since yellow bags were introduced. This has also resulted in a decrease in special waste pick-up as well as a decrease in bags per kit required to previous practices.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "enhanced-cost-recovery-for-traffic-assets",
+      "label": "Enhanced Cost Recovery for Traffic Assets (PWD)",
+      "department": "PWD",
+      "departmentName": "Public Works",
+      "title": "Enhanced Cost Recovery for Traffic Assets",
+      "description": "Issue with police reports and cost recovery from accidents damaging hardware i.e. streetlights, poles, Traffic signals. Cost recovery and turnaround through processing police reports from months to days.  Centralized and streamline process.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "integrated-street-furniture-program",
+      "label": "Integrated Street Furniture Program (PWD)",
+      "department": "PWD",
+      "departmentName": "Public Works",
+      "title": "Integrated Street Furniture Program",
+      "description": "Worked with the vendor to design a more robust custom model of waste bin to extend the life of the bins. Sent rusted bins back to the vendor to be refurbished through the warranty. Worked with BIAs and Councillors to ensure we have the right number of bins on street at the right locations - on some streets there was an oversupply of bins and we have been able to reduce the number without reducing the service standards for residents. This is saving the City costs by reducing the total number of assets on street and reducing daily tipping fees for bins that are unnecessary.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "plant-your-place-program",
+      "label": "Plant Your Place Program (PWD)",
+      "department": "PWD",
+      "departmentName": "Public Works",
+      "title": "Plant Your Place Program",
+      "description": "Through the new Plant Your Place! program, trees are available free of charge to residents through two streams: 1) City-Wide Tree Distribution, and 2) Full-Service Tree Planting in neighbourhoods with low canopy cover. Participants in both program streams will be provided with educational resources and information on tree care and maintenance to support long-term tree health and survival. \n\nThe Plant Your Place! program is a City of Ottawa program delivered in partnership with EnviroCentre. Both program streams support the goals of the City of Ottawa's Urban Forest Management Plan and work towards the vision for Ottawa's urban forest: healthy, diverse, resilient, and always growing.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "roads-financial-monthly-reporting-process",
+      "label": "Roads Financial Monthly Reporting Process: (PWD)",
+      "department": "PWD",
+      "departmentName": "Public Works",
+      "title": "Roads Financial Monthly Reporting Process:",
+      "description": "This initiative involved a monthly financial variance report submitted by the Roads MMS and FSU teams to management to facilitate decision-making. Our team worked collaboratively with the Roads MMS and FSU teams to facilitate a comprehensive purpose alignment and current state mapping session(s) to analyze the process, identify areas for improvement, and establish a clear roadmap for optimizing the workflow. \nKey components of the exercise included: \n- Current state mapping of the process \n- Development and alignment of process vision, mission and individual goals with management priorities and expectations \n- Developing roles and responsibilities \n- Creating RACI charts \n- Identifying opportunities for improvement and streamlining",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "roads-mms-mobility-project",
+      "label": "Roads MMS Mobility Project: (PWD)",
+      "department": "PWD",
+      "departmentName": "Public Works",
+      "title": "Roads MMS Mobility Project:",
+      "description": "In its last phase of implementation, the new automated work management process leverages technology (SAP Fiori). It empowers field staff by giving them the technology to stay in the field to complete their paperwork, while providing better, real-time data for analysis. The move to a mobile workforce improves service and reduces the cost of delivering those services. Therefore, we anticipate improved time management, workflow and management reporting, and consistent work management across Roads Services.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "sand-screening-project",
+      "label": "Sand Screening Project (PWD)",
+      "department": "PWD",
+      "departmentName": "Public Works",
+      "title": "Sand Screening Project",
+      "description": "The Trail Waste Facility and adjoining City-owned properties are made up of a premium sand material.  Solid Waste Services took advantage of this in 2024 by excavating and screening the sand so that it could be used for the current Stage 3B landfill capping project instead of the contractor providing the sand. The City is providing 55,000 cubic metres of sand for the landfill cap. This project has estimated savings of $1.3 million this year.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "streamlining-tree-dedication-program",
+      "label": "Streamlining Tree Dedication Program (PWD)",
+      "department": "PWD",
+      "departmentName": "Public Works",
+      "title": "Streamlining Tree Dedication Program",
+      "description": "Streamlining processes of former Commemorative Tree Program under the new Tree Dedication Program which now includes spatial data collection for proposed planting locations. The program was expanded to include a wider eligibility for the benefit of residents.  Online payment was not an option previously.  Payment was paid in person or via mailed cheque.  Interacting map with tree dedication will allow user to browse and select a site, when reserving a tree on the interactive map, the application form will pop up to complete. Goal, reduce administrative burden and easier user interface for client.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "summer-student-onboarding",
+      "label": "Summer Student Onboarding? (PWD)",
+      "department": "PWD",
+      "departmentName": "Public Works",
+      "title": "Summer Student Onboarding?",
+      "description": "Staff trained on all mandatory courses before commencing field work. Improved safety for summer students and increased productivity to be able to start their full scope of their duties the first week of start date. Worked with H&S, L&D and involved the Sr Clerks in Parks. Increase to almost 100% students completing their mandatory and job specific training on their first 2 days of employment.  This will be implemented throughout PW summer 2025 for all students.  Hoping to eventually be implemented for all new hires.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "traffic-infrastructure-mobile-mapping",
+      "label": "Traffic Infrastructure Mobile Mapping? (PWD)",
+      "department": "PWD",
+      "departmentName": "Public Works",
+      "title": "Traffic Infrastructure Mobile Mapping?",
+      "description": "Traffic Services (Public Works Department) is partnering with the Geospatial Analytical, Technology & Solutions (GATS) branch within the ROW, Heritage & Urban Design Services (Planning, Development, & Building Department) to conduct a comprehensive inventory of traffic assets using the Mosaic Meridian system and Esri Field Maps. This collaboration aligns with GATS' Council-directed mandate to enhance visual and numerical analysis by developing and maintaining the City's Digital Twin, a virtual representation of Ottawa's infrastructure.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "winter-maintenance-service-enhancements",
+      "label": "Winter Maintenance Service Enhancements (PWD)",
+      "department": "PWD",
+      "departmentName": "Public Works",
+      "title": "Winter Maintenance Service Enhancements",
+      "description": "Public Works reviewed the Winter Maintenance Quality Standards to improve winter maintenance of residential roads, sidewalks, cycling pathways, and multi-use pathways for walking, cycling and rollerblading. The Service Delivery review was a comprehensive review of improvements that could be made within the current Winter Maintenance Quality Standards. These improvements resulted in better network conditions through more proactive and aggressive deployment of resources, a redistribution of staff to prioritize sidewalks, and a change to the area boundaries. Winter area boundaries changed to an Urban, Suburban West, Suburban East and a Rural Area structure. The goal for this change was to better align our yards around the type of community and infrastructure they service. This will support development of an urban, suburban, and rural strategy as it relates to event deployment and winter maintenance rather than a one-size-fits-all approach.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "winter-parking-availability-at-city-facilities",
+      "label": "Winter Parking Availability at City Facilities? (PWD)",
+      "department": "PWD",
+      "departmentName": "Public Works",
+      "title": "Winter Parking Availability at City Facilities?",
+      "description": "Looking at winter parking availability at City facilities and whether it can be expanded during winter parking bans.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "parks-and-facilities-planning-efficiency-review",
+      "label": "Parks and Facilities Planning Efficiency Review (RCFS)",
+      "department": "RCFS",
+      "departmentName": "Recreation and Facility Services",
+      "title": "Parks and Facilities Planning Efficiency Review",
+      "description": "The Parks and Facilities Planning (PFP) group has begun to implement a series of structural as well as process changes that are streamlining the existing practices. This has involved the development of a new process for the intake and tracking of Cash-in-lieu of Parkland (CIL) funded projects to manage and prioritize Councillor requests.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Improved Service Delivery",
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "building-sustainable-housing",
+      "label": "Building Sustainable Housing (SI)",
+      "department": "SI",
+      "departmentName": "Strategic Initiatives",
+      "title": "Building Sustainable Housing",
+      "description": "Projects in construction in 2025 include: CCOC 212-216 Carruthers, CCOC 171 Armstrong, Salus Capilano, OCH Gladstone Village (Phase 1)",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Improved Service Delivery",
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "building-sustainable-housing-supportive-housing-units",
+      "label": "Building Sustainable Housing  - Supportive Housing Units (SI)",
+      "department": "SI",
+      "departmentName": "Strategic Initiatives",
+      "title": "Building Sustainable Housing  - Supportive Housing Units",
+      "description": "In 2025, the City completed 48 supportive housing units at 216 Murray Street in partnership with Shepherds of Good Hope-featuring low-barrier drop-in services and a commercial kitchen to help reduce chronic homelessness",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Improved Service Delivery",
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "building-sustainable-housing-removal-of-barriers-on-city-own",
+      "label": "Building Sustainable Housing - Removal of barriers on City-owned land (SI)",
+      "department": "SI",
+      "departmentName": "Strategic Initiatives",
+      "title": "Building Sustainable Housing - Removal of barriers on City-owned land",
+      "description": "Removal of barriers on City-owned land, enabling affordable housing and other infrastructure projects to move forward more quickly",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Improved Service Delivery",
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "climate-change-master-plan",
+      "label": "Climate Change Master Plan (SI)",
+      "department": "SI",
+      "departmentName": "Strategic Initiatives",
+      "title": "Climate Change Master Plan",
+      "description": "",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Capacity Creation",
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "climate-mitigation-adaptation-and-resiliency-program",
+      "label": "Climate Mitigation, Adaptation and Resiliency Program (SI)",
+      "department": "SI",
+      "departmentName": "Strategic Initiatives",
+      "title": "Climate Mitigation, Adaptation and Resiliency Program",
+      "description": "IWSD is working with City departments to move forward with climate mitigation, adaptation and resiliency projects and initiatives.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "climate-mitigation-adaptation-and-resiliency-program-new-lan",
+      "label": "Climate Mitigation, Adaptation and Resiliency Program  - New Lands (SI)",
+      "department": "SI",
+      "departmentName": "Strategic Initiatives",
+      "title": "Climate Mitigation, Adaptation and Resiliency Program  - New Lands",
+      "description": "Over 400 acres of ecologically significant land secured in 2025 to protect Ottawa's Natural Heritage System and support biodiversity, forest cover, and sustainable land management",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "climate-mitigation-adaptation-and-resiliency-program-energy-",
+      "label": "Climate Mitigation, Adaptation and Resiliency Program - Energy Exchange (SI)",
+      "department": "SI",
+      "departmentName": "Strategic Initiatives",
+      "title": "Climate Mitigation, Adaptation and Resiliency Program - Energy Exchange",
+      "description": "Ottawa's first Sewage Energy Exchange System pilot was approved and will heat and cool LeBreton Flats condos using wastewater energy-eliminating fossil fuels and cutting over 5,000 tonnes of GHGs annually.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Direct Cost Savings",
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "climate-mitigation-adaptation-and-resiliency-program-grant-f",
+      "label": "Climate Mitigation, Adaptation and Resiliency Program - Grant Funding (SI)",
+      "department": "SI",
+      "departmentName": "Strategic Initiatives",
+      "title": "Climate Mitigation, Adaptation and Resiliency Program - Grant Funding",
+      "description": "$1.5M in grant funding secured to advance priority climate resiliency actions, including community cooling features, nature-based solutions and climate risk assessments of critical infrastructure.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Direct Cost Savings",
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "climate-mitigation-adaptation-and-resiliency-program-solar-r",
+      "label": "Climate Mitigation, Adaptation and Resiliency Program - Solar Rooftop (SI)",
+      "department": "SI",
+      "departmentName": "Strategic Initiatives",
+      "title": "Climate Mitigation, Adaptation and Resiliency Program - Solar Rooftop",
+      "description": "3 new city facility solar rooftop installations in 2025, projected to result in $160,000 in reduced electricity costs and 172 tonnes in GHG emissions reductions",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Direct Cost Savings",
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "economic-development",
+      "label": "Economic Development (SI)",
+      "department": "SI",
+      "departmentName": "Strategic Initiatives",
+      "title": "Economic Development",
+      "description": "",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "economic-development-dashboard",
+      "label": "Economic Development Dashboard (SI)",
+      "department": "SI",
+      "departmentName": "Strategic Initiatives",
+      "title": "Economic Development Dashboard",
+      "description": "Centralized, self-serve dashboard with key indicators (labour force, real estate, livability, downtown) to track Ottawa's economic health.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery",
+        "Improved Service Delivery",
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "removal-of-barriers-on-city-owned-land",
+      "label": "Removal of barriers on City-owned land (SI)",
+      "department": "SI",
+      "departmentName": "Strategic Initiatives",
+      "title": "Removal of barriers on City-owned land",
+      "description": "Barriers were removed on City-owned land to accelerate affordable housing and infrastructure development.",
+      "outcome": "",
+      "openText": "",
+      "tagged": []
+    },
+    {
+      "id": "bus-shelter-inventory-program",
+      "label": "Bus shelter inventory program (TS)",
+      "department": "TS",
+      "departmentName": "Transit Services",
+      "title": "Bus shelter inventory program",
+      "description": "The scope of the Bus Shelter Inventory Program includes reviewing and streamlining processes for reporting both planned and unplanned changes to the city's bus shelters, ensuring the data remains accurate and up to date. Reliable data enables staff to effectively manage any on-street issues, support the best customer experience, and maintain a strong relationship with the City's bus shelter advertising partner. \n\nImpact evaluation",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "departmental-cost-model",
+      "label": "Departmental cost model (TS)",
+      "department": "TS",
+      "departmentName": "Transit Services",
+      "title": "Departmental cost model",
+      "description": "The Departmental Cost Model initiative focuses on developing a comprehensive dashboard in collaboration with subject matter experts across the Transit Services and Finance and Corporate Services Department. The model analyzes current expenditures, and key cost drivers across major business lines and serves as a framework to assess the financial impact of future decisions. It is being maintained quarterly to ensure accuracy and relevance, with ongoing enhancements to support improved financial planning and decision-making. \n\nOutcome monitoring",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "fleet-plan-reviews-conventional-para-and-non-revenue",
+      "label": "Fleet plan reviews - conventional, Para and non-revenue (TS)",
+      "department": "TS",
+      "departmentName": "Transit Services",
+      "title": "Fleet plan reviews - conventional, Para and non-revenue",
+      "description": "This initiative supports long-term planning for conventional, para, and non-revenue fleets through tools that use ridership forecasts to determine future capacity needs and guide vehicle purchase schedules through 2048. The proactive approach enables more predictable budgeting, optimizes fleet performance, reduces service disruptions, and supports informed, strategic decision-making over the long term. \n\nImpact evaluation",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "investments-in-the-safety-and-security-of-ottawa-s-transit-s",
+      "label": "Investments in the Safety and Security of Ottawa's Transit System - Special Constables Unit (TS)",
+      "department": "TS",
+      "departmentName": "Transit Services",
+      "title": "Investments in the Safety and Security of Ottawa's Transit System - Special Constables Unit",
+      "description": "As part of its commitment to providing a safe and secure transit system, OC Transpo is making investments within the Special Constables Unit.  Special Constables are sworn peace officers who play an important role in preserving the peace, preventing and investigating crime on transit, protecting customers and employees, and providing assistance to those in need.\nContinued investments, in partnership with the Province of Ontario, have allowed OC Transpo to hire 18 additional Special Constables over the last year with more to come in 2026, up to a combined total of 22 new Special Constables over the two-year period.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "investments-in-the-safety-and-security-of-ottawa-s-transit-s",
+      "label": "Investments in the Safety and Security of Ottawa's Transit System - Transit Fare Inspectors (TS)",
+      "department": "TS",
+      "departmentName": "Transit Services",
+      "title": "Investments in the Safety and Security of Ottawa's Transit System - Transit Fare Inspectors",
+      "description": "Transit Fare Inspectors were re-introduced to OC Transpo as part of a continuous service improvement initiative. The pilot project was well received and demonstrated the value these positions bring to our transit system.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Direct Cost Savings"
+      ]
+    },
+    {
+      "id": "maintenance-dashboards-including-bus-availability-tool",
+      "label": "Maintenance dashboards - including bus availability tool (TS)",
+      "department": "TS",
+      "departmentName": "Transit Services",
+      "title": "Maintenance dashboards - including bus availability tool",
+      "description": "The scope of the Maintenance Dashboard initiative includes developing a Power BI dashboard to display key maintenance-related KPIs. The initial focus is on creating an automated bus availability tool that uses live data to track and visualize daily bus availability over time, comparing it against service planning requirements. The bus availability tool enhances operational visibility, supports data-driven decision-making, and enables timely interventions to improve fleet reliability and service delivery \n\nOutcome monitoring",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "new-para-transpo-minibuses-improving-reliability-safety-and-",
+      "label": "New Para Transpo Minibuses - Improving Reliability, Safety and Comfort (TS)",
+      "department": "TS",
+      "departmentName": "Transit Services",
+      "title": "New Para Transpo Minibuses - Improving Reliability, Safety and Comfort",
+      "description": "In 2025, OC Transpo began receiving new seven-metre minibuses for Para Transpo. As part of the renewal of the Para bus fleet, these new minibuses will provide a more reliable, secure and comfortable experience for customers. In total, Para Transpo will receive 76 new seven-metre minibuses, with deliveries between Q1 2025 to Q1 2026.\nThe new minibus has up to 10 seats, three wheelchair spots, O-Payment readers, and air conditioning. The addition of the O-Payment readers is an important upgrade for customers as it allows them to pay with a credit card, debit card or mobile wallet. For safety, the minibuses are equipped with individual seatbelts, stability belts to secure mobility devices, slip-resistant side and back door ramps, and onboard security cameras.\nIn addition, Para Transpo has introduced six new six-metre minibuses, which are fully in service as of mid-2025. The new six-metre minibuses are smaller in size but have increased flexibility for maneuvering in urban areas.\nAs part of the 2026 Budget, On-Demand Transit will be expanded with 10 new seven-metre minibuses. This service will benefit those customers who rely on Para Transpo services.",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Improved Service Delivery"
+      ]
+    },
+    {
+      "id": "operator-performance-models-absenteeism-on-time-performance",
+      "label": "Operator performance Models (absenteeism, on time performance) (TS)",
+      "department": "TS",
+      "departmentName": "Transit Services",
+      "title": "Operator performance Models (absenteeism, on time performance)",
+      "description": "The Operator Performance Models initiative aims to develop a Power BI dashboard that presents key performance metrics by individual operator and operator groups. The models focus on metrics such as absenteeism and on-time performance (OTP), covering operator groups including Conventional Bus, Electric Rail, Diesel Rail, and Para Transpo Operators. The dashboard supports in identifying trends and conducting spot troubleshooting to enhance service effectiveness and efficiency. \n\n \n\nImpact evaluation",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    },
+    {
+      "id": "tocc-service-performance-dashboard-and-link-with-other-kpis",
+      "label": "TOCC Service Performance Dashboard and link with other KPIs (TS)",
+      "department": "TS",
+      "departmentName": "Transit Services",
+      "title": "TOCC Service Performance Dashboard and link with other KPIs",
+      "description": "The project/initiative is aimed at updating and improving bus and rail service reporting from the Transit Operational Control Centre. This includes performance dashboards as well as streamlining data collection and reporting in order to better support groups such as Customer Service, Engineering, Safety with key performance metrics. The project will include linking measurement and reporting with other KPIs. \n\n\nOutcome monitoring",
+      "outcome": "",
+      "openText": "",
+      "tagged": [
+        "Capacity Creation"
+      ]
+    }
+  ]
+}

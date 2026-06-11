@@ -1,0 +1,48 @@
+{
+  "version": "0.1.0",
+  "source": "CoO Value Realization team (placeholder taxonomy)",
+  "categories": [
+    {
+      "id": "improved-service-delivery",
+      "code": "ISD",
+      "name": "Improved Service Delivery",
+      "color": "#2563eb",
+      "definition": "Initiatives that materially improve the quality, speed, accessibility, or consistency of services delivered to residents, businesses, or visitors. Focus on the citizen experience and outcomes felt outside the organization."
+    },
+    {
+      "id": "capacity-creation",
+      "code": "CC",
+      "name": "Capacity Creation",
+      "color": "#10b981",
+      "definition": "Initiatives that reduce manual effort, eliminate redundant steps, automate workflows, or otherwise free staff time so that the City can do more with the same resources. Internal efficiency that creates headroom for new work."
+    },
+    {
+      "id": "direct-cost-savings",
+      "code": "DCS",
+      "name": "Direct Cost Savings",
+      "color": "#f59e0b",
+      "definition": "Initiatives that produce measurable reductions in operating expenditure, capital cost, procurement spend, or third-party fees. The benefit appears directly on a budget line."
+    },
+    {
+      "id": "risk-reduction",
+      "code": "RR",
+      "name": "Risk Reduction",
+      "color": "#ef4444",
+      "definition": "Initiatives that reduce the likelihood or impact of operational, financial, regulatory, security, or reputational risk to the City — including improved compliance, audit posture, or resilience."
+    },
+    {
+      "id": "revenue-generation",
+      "code": "RG",
+      "name": "Revenue Generation",
+      "color": "#8b5cf6",
+      "definition": "Initiatives that create or grow non-tax revenue streams (e.g., user fees, permits, partnerships, grants) or expand a chargeable service offering."
+    },
+    {
+      "id": "experience-engagement",
+      "code": "XE",
+      "name": "Experience & Engagement",
+      "color": "#ec4899",
+      "definition": "Initiatives that elevate the human experience of staff, residents, or stakeholders — through better communication, easier interactions, more inclusive design, or stronger community engagement and trust."
+    }
+  ]
+}

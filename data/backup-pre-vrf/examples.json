@@ -1,0 +1,32 @@
+{
+  "version": "0.1.0",
+  "examples": [
+    {
+      "id": "roads-mms",
+      "label": "Roads MMS Mobility Project (Public Works)",
+      "department": "PWD",
+      "title": "Strategically optimized Roads MMS Mobility Project",
+      "description": "CURRENT STATE ANALYSIS: In its last phase of implementation, the new automated work management process leverages technology (SAP Fiori). It empowers field staff by giving them the technology to stay in the field to complete their paperwork. Our strategic objective is to roads mms mobility project leveraging automated workflow triggers and real-time performance analytics.",
+      "outcome": "MEASURABLE IMPACT: Anticipate improved time management, workflow and management reporting, and consistent work management. Eliminating redundant administrative layers and establishing a single source of truth for departmental data.",
+      "openText": "Field crews previously returned to depots to file paperwork, losing 60-90 minutes per shift. New mobile workflow keeps them in the field. Pilot district saw a 22% increase in completed work orders per crew per week and citizen call-back rate dropped 35%."
+    },
+    {
+      "id": "311-triage",
+      "label": "AI-assisted 311 Call Triage (ITSD)",
+      "department": "ITSD",
+      "title": "AI-assisted 311 Call Triage & Routing",
+      "description": "CURRENT STATE: 311 call agents manually categorize and route resident calls across dozens of service areas. Categorization is inconsistent and high-priority issues (water mains, safety) are sometimes routed slowly. Proposed: an AI co-pilot listens during the call, suggests category, priority, and routing in real time, and drafts the work order for the agent to confirm.",
+      "outcome": "Faster routing of urgent issues, reduction in mis-routed work orders, more consistent categorization across agents, freed agent capacity for de-escalation and complex calls. Improved first-contact resolution.",
+      "openText": "Pilot with 5 agents projected: average call handle time -18%, mis-categorization rate -60%, agent reported workload satisfaction up. Cyber, privacy, and bias reviews planned before rollout."
+    },
+    {
+      "id": "permit-modernization",
+      "label": "Building Permit Modernization (PED)",
+      "department": "PED",
+      "title": "End-to-end Digital Building Permit Modernization",
+      "description": "CURRENT STATE: Building permit applications require multiple in-person visits, paper plan submissions, and manual cross-department review. Average review time is 12+ weeks. Proposed: a fully digital intake, plan-review, and approvals platform with status tracking and automated routing across Planning, Engineering, and Bylaw.",
+      "outcome": "Permit review time reduced to under 4 weeks for standard residential, transparent status for applicants, reduced administrative burden on staff, fewer applicant call-backs and complaints.",
+      "openText": "Comparable municipalities have seen 50-65% review time reductions after going digital. Significant procurement and change management investment required. Strong community demand."
+    }
+  ]
+}

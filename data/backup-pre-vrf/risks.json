@@ -1,0 +1,55 @@
+{
+  "version": "0.1.0",
+  "source": "CoO Risk / Value Realization team (placeholder taxonomy)",
+  "risks": [
+    {
+      "id": "tech-cyber",
+      "name": "Technology & Cybersecurity Risk",
+      "intentArea": "Data Privacy & Cybersecurity",
+      "definition": "Risk that the initiative introduces or amplifies exposure to cyber threats, data breaches, system outages, or privacy incidents through new systems, integrations, or data handling.",
+      "indicators": ["data", "system", "integration", "automation", "platform", "AI", "LLM", "cloud", "API"]
+    },
+    {
+      "id": "operational",
+      "name": "Operational & Change Management Risk",
+      "intentArea": "Change Management & Adoption",
+      "definition": "Risk that staff cannot adopt the new process, that training or change support is inadequate, or that operational disruption occurs during transition.",
+      "indicators": ["workflow", "process", "training", "change", "rollout", "implementation", "transition", "staff"]
+    },
+    {
+      "id": "financial",
+      "name": "Financial & Budget Risk",
+      "intentArea": "Financial Stewardship",
+      "definition": "Risk that the initiative exceeds budget, fails to realize projected savings, or creates unanticipated ongoing operating costs.",
+      "indicators": ["cost", "savings", "budget", "spend", "procurement", "license", "subscription"]
+    },
+    {
+      "id": "regulatory",
+      "name": "Regulatory & Compliance Risk",
+      "intentArea": "Regulatory Compliance",
+      "definition": "Risk of non-compliance with applicable legislation, regulation, council directive, or accessibility / privacy obligations.",
+      "indicators": ["privacy", "FIPPA", "AODA", "compliance", "regulation", "policy", "council", "by-law"]
+    },
+    {
+      "id": "reputational",
+      "name": "Reputational & Public Trust Risk",
+      "intentArea": "Reputation Management",
+      "definition": "Risk that the initiative damages public trust through poor service experience, perceived bias, lack of transparency, or visible failure.",
+      "indicators": ["public", "citizen", "trust", "transparency", "fairness", "bias", "complaint", "media"]
+    },
+    {
+      "id": "vendor",
+      "name": "Vendor & Third-Party Risk",
+      "intentArea": "Vendor Management",
+      "definition": "Risk arising from dependence on third-party vendors — service continuity, lock-in, performance, security posture, or contractual terms.",
+      "indicators": ["vendor", "third-party", "supplier", "SaaS", "outsource", "contract", "SLA"]
+    },
+    {
+      "id": "data-quality",
+      "name": "Data Quality & Decision Risk",
+      "intentArea": "Data Integrity",
+      "definition": "Risk that decisions based on the system are flawed due to inaccurate, incomplete, biased, or stale data.",
+      "indicators": ["report", "analytics", "decision", "metric", "KPI", "dashboard", "AI", "model"]
+    }
+  ]
+}

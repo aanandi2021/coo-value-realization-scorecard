@@ -1,0 +1,548 @@
+{
+  "version": "1.0.0",
+  "source": "City of Ottawa VRF_Scorecard_MVP — General KPI List.csv",
+  "kpis": [
+    {
+      "id": "ISD-01",
+      "name": "Average Response Time",
+      "categories": [
+        "improved-service-delivery"
+      ],
+      "category": "Improved Service Delivery",
+      "type": "Quantitative",
+      "definition": "Average elapsed time between request initiation and first response.",
+      "calculation": "Total response time ÷ number of requests",
+      "driverKeywords": [
+        "speed",
+        "timeliness"
+      ],
+      "useWhen": "Measuring service speed",
+      "avoidWhen": "Requests batched",
+      "strategicAlignment": "Service Excellence",
+      "department": "General",
+      "notes": "Define clear start/end points",
+      "dataSource": "Service request system / 311 / departmental SLA logs"
+    },
+    {
+      "id": "ISD-02",
+      "name": "Average Resolution Time",
+      "categories": [
+        "improved-service-delivery"
+      ],
+      "category": "Improved Service Delivery",
+      "type": "Quantitative",
+      "definition": "Average time to fully resolve a request from initiation to closure.",
+      "calculation": "Total resolution time ÷ number of requests",
+      "driverKeywords": [
+        "turnaround",
+        "efficiency"
+      ],
+      "useWhen": "End?to?end improvements",
+      "avoidWhen": "Ownership unclear",
+      "strategicAlignment": "Service Reliability",
+      "department": "General",
+      "notes": "Pair with FCR",
+      "dataSource": "Service request system / 311 / departmental SLA logs"
+    },
+    {
+      "id": "ISD-03",
+      "name": "SLA Adherence Rate",
+      "categories": [
+        "improved-service-delivery"
+      ],
+      "category": "Improved Service Delivery",
+      "type": "Quantitative",
+      "definition": "Percentage of requests completed within agreed service targets.",
+      "calculation": "Requests within SLA ÷ total × 100",
+      "driverKeywords": [
+        "reliability",
+        "predictability"
+      ],
+      "useWhen": "Formal SLA environments",
+      "avoidWhen": "SLAs undefined",
+      "strategicAlignment": "Accountability",
+      "department": "General",
+      "notes": "Requires stable SLAs",
+      "dataSource": "Service request system / 311 / departmental SLA logs"
+    },
+    {
+      "id": "ISD-04",
+      "name": "First?Contact Resolution Rate",
+      "categories": [
+        "improved-service-delivery"
+      ],
+      "category": "Improved Service Delivery",
+      "type": "Quantitative",
+      "definition": "Percentage of requests resolved without escalation or follow?up.",
+      "calculation": "First?contact resolutions ÷ total × 100",
+      "driverKeywords": [
+        "quality",
+        "empowerment"
+      ],
+      "useWhen": "Frontline enablement",
+      "avoidWhen": "Multi?step services",
+      "strategicAlignment": "Client Experience",
+      "department": "General",
+      "notes": "Strong maturity metric",
+      "dataSource": "Service request system / 311 / departmental SLA logs"
+    },
+    {
+      "id": "ISD-05",
+      "name": "Service Turnaround Time",
+      "categories": [
+        "improved-service-delivery"
+      ],
+      "category": "Improved Service Delivery",
+      "type": "Quantitative",
+      "definition": "Time taken to complete a standard service transaction.",
+      "calculation": "Completion date ? request date",
+      "driverKeywords": [
+        "throughput",
+        "flow"
+      ],
+      "useWhen": "Standardized services",
+      "avoidWhen": "Highly customized work",
+      "strategicAlignment": "Operational Excellence",
+      "department": "General",
+      "notes": "Normalize by service type",
+      "dataSource": "Service request system / 311 / departmental SLA logs"
+    },
+    {
+      "id": "ISD-06",
+      "name": "Customer Satisfaction Score",
+      "categories": [
+        "improved-service-delivery"
+      ],
+      "category": "Improved Service Delivery",
+      "type": "Quantitative + Qualitative",
+      "definition": "Perceived satisfaction with service experience.",
+      "calculation": "Average survey score",
+      "driverKeywords": [
+        "satisfaction",
+        "trust"
+      ],
+      "useWhen": "Assessing experience quality",
+      "avoidWhen": "Low response rates",
+      "strategicAlignment": "Trust & Confidence",
+      "department": "General",
+      "notes": "Pair with comments",
+      "dataSource": "Service request system / 311 / departmental SLA logs"
+    },
+    {
+      "id": "ISD-07",
+      "name": "Service Clarity Rating",
+      "categories": [
+        "improved-service-delivery"
+      ],
+      "category": "Improved Service Delivery",
+      "type": "Qualitative",
+      "definition": "User perception of how clear and understandable the service process is.",
+      "calculation": "Average clarity score",
+      "driverKeywords": [
+        "clarity",
+        "transparency"
+      ],
+      "useWhen": "Communication improvements",
+      "avoidWhen": "Process undocumented",
+      "strategicAlignment": "Service Transparency",
+      "department": "General",
+      "notes": "Survey?based",
+      "dataSource": "Service request system / 311 / departmental SLA logs"
+    },
+    {
+      "id": "ISD-08",
+      "name": "Ease of Interaction Index",
+      "categories": [
+        "improved-service-delivery"
+      ],
+      "category": "Improved Service Delivery",
+      "type": "Qualitative",
+      "definition": "Perceived ease of completing a service interaction end?to?end.",
+      "calculation": "Composite survey score",
+      "driverKeywords": [
+        "friction",
+        "usability"
+      ],
+      "useWhen": "Journey redesign",
+      "avoidWhen": "No feedback mechanism",
+      "strategicAlignment": "User?Centric Design",
+      "department": "General",
+      "notes": "Often uses Likert scales",
+      "dataSource": "Service request system / 311 / departmental SLA logs"
+    },
+    {
+      "id": "ISD-09",
+      "name": "Complaint Reduction Rate",
+      "categories": [
+        "improved-service-delivery"
+      ],
+      "category": "Improved Service Delivery",
+      "type": "Quantitative",
+      "definition": "Reduction in complaints compared to baseline period.",
+      "calculation": "(Baseline ? current) ÷ baseline × 100",
+      "driverKeywords": [
+        "friction",
+        "escalation"
+      ],
+      "useWhen": "Post?improvement validation",
+      "avoidWhen": "Complaint volume unstable",
+      "strategicAlignment": "Reputation",
+      "department": "General",
+      "notes": "Normalize for demand",
+      "dataSource": "Service request system / 311 / departmental SLA logs"
+    },
+    {
+      "id": "CC-01",
+      "name": "Hours Saved",
+      "categories": [
+        "capacity-creation"
+      ],
+      "category": "Capacity Creation",
+      "type": "Quantitative",
+      "definition": "Total staff hours freed through efficiency or automation.",
+      "calculation": "Baseline hours ? current hours",
+      "driverKeywords": [
+        "productivity",
+        "time"
+      ],
+      "useWhen": "Demonstrating freed capacity",
+      "avoidWhen": "No baseline",
+      "strategicAlignment": "Workforce Sustainability",
+      "department": "General",
+      "notes": "Annualize where possible",
+      "dataSource": "Workflow audit logs / time-and-effort study"
+    },
+    {
+      "id": "CC-02",
+      "name": "Cycle Time Reduction",
+      "categories": [
+        "capacity-creation"
+      ],
+      "category": "Capacity Creation",
+      "type": "Quantitative",
+      "definition": "Reduction in internal process duration.",
+      "calculation": "(Baseline ? current) ÷ baseline × 100",
+      "driverKeywords": [
+        "flow",
+        "efficiency"
+      ],
+      "useWhen": "Process redesign",
+      "avoidWhen": "High variability",
+      "strategicAlignment": "Process Excellence",
+      "department": "General",
+      "notes": "Supports throughput",
+      "dataSource": "Workflow audit logs / time-and-effort study"
+    },
+    {
+      "id": "CC-03",
+      "name": "Manual Effort Reduction Rate",
+      "categories": [
+        "capacity-creation"
+      ],
+      "category": "Capacity Creation",
+      "type": "Quantitative",
+      "definition": "Reduction in manual effort required to complete tasks.",
+      "calculation": "(Baseline ? current) ÷ baseline × 100",
+      "driverKeywords": [
+        "simplification",
+        "effort"
+      ],
+      "useWhen": "Automation initiatives",
+      "avoidWhen": "Effort unmeasured",
+      "strategicAlignment": "Digital Enablement",
+      "department": "General",
+      "notes": "Often estimated",
+      "dataSource": "Workflow audit logs / time-and-effort study"
+    },
+    {
+      "id": "CC-04",
+      "name": "Automation Rate",
+      "categories": [
+        "capacity-creation"
+      ],
+      "category": "Capacity Creation",
+      "type": "Quantitative",
+      "definition": "Proportion of tasks executed through automation.",
+      "calculation": "Automated tasks ÷ total tasks × 100",
+      "driverKeywords": [
+        "digitization"
+      ],
+      "useWhen": "Technology enablement",
+      "avoidWhen": "Automation ? value",
+      "strategicAlignment": "Digital Strategy",
+      "department": "General",
+      "notes": "Pair with effort saved",
+      "dataSource": "Workflow audit logs / time-and-effort study"
+    },
+    {
+      "id": "CC-05",
+      "name": "Error Rate Reduction",
+      "categories": [
+        "capacity-creation"
+      ],
+      "category": "Capacity Creation",
+      "type": "Quantitative",
+      "definition": "Reduction in errors due to manual handling.",
+      "calculation": "(Baseline ? current) ÷ baseline × 100",
+      "driverKeywords": [
+        "quality",
+        "rework"
+      ],
+      "useWhen": "Process reliability",
+      "avoidWhen": "Errors not tracked",
+      "strategicAlignment": "Risk Reduction",
+      "department": "General",
+      "notes": "Supports cost avoidance",
+      "dataSource": "Workflow audit logs / time-and-effort study"
+    },
+    {
+      "id": "CC-06",
+      "name": "Capacity Absorption Capability",
+      "categories": [
+        "capacity-creation"
+      ],
+      "category": "Capacity Creation",
+      "type": "Qualitative",
+      "definition": "Ability to handle increased demand without added resources.",
+      "calculation": "Qualitative assessment or throughput delta",
+      "driverKeywords": [
+        "scalability",
+        "resilience"
+      ],
+      "useWhen": "Demand growth",
+      "avoidWhen": "Demand unchanged",
+      "strategicAlignment": "Organizational Resilience",
+      "department": "General",
+      "notes": "Often narrative?based",
+      "dataSource": "Workflow audit logs / time-and-effort study"
+    },
+    {
+      "id": "CC-07",
+      "name": "Non?Value?Added Activity Reduction",
+      "categories": [
+        "capacity-creation"
+      ],
+      "category": "Capacity Creation",
+      "type": "Quantitative",
+      "definition": "Reduction in activities that do not contribute to outcomes.",
+      "calculation": "Eliminated activities ÷ baseline × 100",
+      "driverKeywords": [
+        "lean",
+        "waste"
+      ],
+      "useWhen": "Lean initiatives",
+      "avoidWhen": "Activities not mapped",
+      "strategicAlignment": "Continuous Improvement",
+      "department": "General",
+      "notes": "Requires process mapping",
+      "dataSource": "Workflow audit logs / time-and-effort study"
+    },
+    {
+      "id": "CC-08",
+      "name": "Staff Capacity Confidence",
+      "categories": [
+        "capacity-creation"
+      ],
+      "category": "Capacity Creation",
+      "type": "Qualitative",
+      "definition": "Staff perception of having time and capability for higher?value work.",
+      "calculation": "Survey?based rating",
+      "driverKeywords": [
+        "workload",
+        "morale"
+      ],
+      "useWhen": "Change adoption assessment",
+      "avoidWhen": "No staff feedback",
+      "strategicAlignment": "Workforce Engagement",
+      "department": "General",
+      "notes": "Early signal metric",
+      "dataSource": "Workflow audit logs / time-and-effort study"
+    },
+    {
+      "id": "CC-09",
+      "name": "Process Reliability Perception",
+      "categories": [
+        "capacity-creation"
+      ],
+      "category": "Capacity Creation",
+      "type": "Qualitative",
+      "definition": "Perceived consistency and predictability of internal processes.",
+      "calculation": "Survey or assessment score",
+      "driverKeywords": [
+        "stability",
+        "reliability"
+      ],
+      "useWhen": "Post?stabilization",
+      "avoidWhen": "Process still evolving",
+      "strategicAlignment": "Operational Maturity",
+      "department": "General",
+      "notes": "Complements SLA data",
+      "dataSource": "Workflow audit logs / time-and-effort study"
+    },
+    {
+      "id": "DCS-01",
+      "name": "Annual Cost Savings",
+      "categories": [
+        "direct-cost-savings"
+      ],
+      "category": "Direct Cost Savings",
+      "type": "Quantitative",
+      "definition": "Recurring operating cost reductions realized annually.",
+      "calculation": "Baseline cost ? current cost",
+      "driverKeywords": [
+        "savings",
+        "efficiency"
+      ],
+      "useWhen": "Budget?driven cases",
+      "avoidWhen": "One?time savings",
+      "strategicAlignment": "Financial Sustainability",
+      "department": "General",
+      "notes": "Validate with Finance",
+      "dataSource": "Financial system (SAP) / budget vs. actuals"
+    },
+    {
+      "id": "DCS-02",
+      "name": "Cost Avoidance",
+      "categories": [
+        "direct-cost-savings"
+      ],
+      "category": "Direct Cost Savings",
+      "type": "Quantitative",
+      "definition": "Future costs prevented through proactive actions.",
+      "calculation": "Avoided estimated cost",
+      "driverKeywords": [
+        "avoidance",
+        "prevention"
+      ],
+      "useWhen": "Risk mitigation",
+      "avoidWhen": "Assumptions weak",
+      "strategicAlignment": "Risk Management",
+      "department": "General",
+      "notes": "Document assumptions",
+      "dataSource": "Financial system (SAP) / budget vs. actuals"
+    },
+    {
+      "id": "DCS-03",
+      "name": "Operating Expense Reduction Rate",
+      "categories": [
+        "direct-cost-savings"
+      ],
+      "category": "Direct Cost Savings",
+      "type": "Quantitative",
+      "definition": "Percentage reduction in operating expenses.",
+      "calculation": "(Baseline ? current) ÷ baseline × 100",
+      "driverKeywords": [
+        "cost control"
+      ],
+      "useWhen": "Structural savings",
+      "avoidWhen": "Revenue changes drive cost",
+      "strategicAlignment": "Fiscal Stewardship",
+      "department": "General",
+      "notes": "Pair with dollar value",
+      "dataSource": "Financial system (SAP) / budget vs. actuals"
+    },
+    {
+      "id": "DCS-04",
+      "name": "Overtime Cost Reduction",
+      "categories": [
+        "direct-cost-savings"
+      ],
+      "category": "Direct Cost Savings",
+      "type": "Quantitative",
+      "definition": "Reduction in overtime expenditures.",
+      "calculation": "Baseline OT ? current OT",
+      "driverKeywords": [
+        "labor cost"
+      ],
+      "useWhen": "Workforce optimization",
+      "avoidWhen": "Seasonal swings dominate",
+      "strategicAlignment": "Workforce Sustainability",
+      "department": "General",
+      "notes": "Normalize demand",
+      "dataSource": "Financial system (SAP) / budget vs. actuals"
+    },
+    {
+      "id": "DCS-05",
+      "name": "Vendor Spend Reduction",
+      "categories": [
+        "direct-cost-savings"
+      ],
+      "category": "Direct Cost Savings",
+      "type": "Quantitative",
+      "definition": "Reduction in vendor or contract expenditures.",
+      "calculation": "Baseline spend ? current spend",
+      "driverKeywords": [
+        "procurement",
+        "sourcing"
+      ],
+      "useWhen": "Contract optimization",
+      "avoidWhen": "Scope changed",
+      "strategicAlignment": "Value for Money",
+      "department": "General",
+      "notes": "Control for scope",
+      "dataSource": "Financial system (SAP) / budget vs. actuals"
+    },
+    {
+      "id": "DCS-06",
+      "name": "Rework Cost Reduction",
+      "categories": [
+        "direct-cost-savings"
+      ],
+      "category": "Direct Cost Savings",
+      "type": "Quantitative",
+      "definition": "Savings from reduced reprocessing or corrections.",
+      "calculation": "Baseline ? current rework cost",
+      "driverKeywords": [
+        "quality",
+        "accuracy"
+      ],
+      "useWhen": "Quality initiatives",
+      "avoidWhen": "Rework not costed",
+      "strategicAlignment": "Operational Excellence",
+      "department": "General",
+      "notes": "Often estimated",
+      "dataSource": "Financial system (SAP) / budget vs. actuals"
+    },
+    {
+      "id": "DCS-07",
+      "name": "Unit Cost Efficiency",
+      "categories": [
+        "direct-cost-savings"
+      ],
+      "category": "Direct Cost Savings",
+      "type": "Quantitative",
+      "definition": "Cost per transaction or output unit.",
+      "calculation": "Total cost ÷ total outputs",
+      "driverKeywords": [
+        "unit cost"
+      ],
+      "useWhen": "Scaling services",
+      "avoidWhen": "Volumes unstable",
+      "strategicAlignment": "Performance Efficiency",
+      "department": "General",
+      "notes": "Good normalization metric",
+      "dataSource": "Financial system (SAP) / budget vs. actuals"
+    },
+    {
+      "id": "DCS-08",
+      "name": "Financial Control Confidence",
+      "categories": [
+        "direct-cost-savings"
+      ],
+      "category": "Direct Cost Savings",
+      "type": "Qualitative",
+      "definition": "Leadership perception of improved cost predictability and control.",
+      "calculation": "Assessment or survey score",
+      "driverKeywords": [
+        "predictability",
+        "stewardship"
+      ],
+      "useWhen": "Post?financial reform",
+      "avoidWhen": "No baseline",
+      "strategicAlignment": "Financial Governance",
+      "department": "General",
+      "notes": "Complements hard savings",
+      "dataSource": "Financial system (SAP) / budget vs. actuals"
+    }
+  ]
+}

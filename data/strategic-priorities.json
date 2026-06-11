@@ -1,0 +1,41 @@
+{
+  "version": "0.1.0",
+  "source": "CoO Strategy / CIO Office (placeholder — confirm current Council term)",
+  "priorities": [
+    {
+      "id": "affordable-city",
+      "name": "An Affordable City",
+      "definition": "Make Ottawa more affordable for residents by managing costs responsibly, delivering value for tax dollars, and improving access to services that reduce cost of living."
+    },
+    {
+      "id": "thriving-economy",
+      "name": "A City with a Thriving, Diversified Economy",
+      "definition": "Foster economic growth, attract investment, support local business, and prepare the workforce for a changing economy."
+    },
+    {
+      "id": "more-housing",
+      "name": "A City that has More Affordable Housing & Reduced Homelessness",
+      "definition": "Expand the supply of affordable, attainable housing and reduce chronic homelessness through coordinated city-wide action."
+    },
+    {
+      "id": "green-resilient",
+      "name": "A Green & Resilient City",
+      "definition": "Advance climate action, environmental stewardship, and infrastructure resilience to protect Ottawa's environment and prepare for climate impacts."
+    },
+    {
+      "id": "connected-mobile",
+      "name": "A Connected, Walkable, Mobile City",
+      "definition": "Improve mobility through reliable transit, safe streets, active transportation, and a road network that supports residents and goods movement."
+    },
+    {
+      "id": "equity-inclusion",
+      "name": "A City Built on Equity & Inclusion",
+      "definition": "Embed equity, diversity, inclusion, and anti-racism into how the City designs, delivers, and measures services for all residents."
+    },
+    {
+      "id": "service-excellence",
+      "name": "Service Excellence & Modernization",
+      "definition": "Modernize how the City works — digital service delivery, data-informed decisioning, efficient operations, and an empowered workforce — to deliver excellent services to residents."
+    }
+  ]
+}

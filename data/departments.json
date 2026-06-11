@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "departments": [
+    { "code": "PWD", "name": "Public Works" },
+    { "code": "PED", "name": "Planning, Real Estate & Economic Development" },
+    { "code": "EPS", "name": "Emergency & Protective Services" },
+    { "code": "CSSD", "name": "Community & Social Services" },
+    { "code": "RCFS", "name": "Recreation, Cultural & Facility Services" },
+    { "code": "TXS", "name": "Transit Services" },
+    { "code": "FSD", "name": "Finance & Corporate Services" },
+    { "code": "ITSD", "name": "Information Technology Services" },
+    { "code": "INF", "name": "Infrastructure & Water Services" },
+    { "code": "OCH", "name": "Office of the City Clerk" }
+  ]
+}

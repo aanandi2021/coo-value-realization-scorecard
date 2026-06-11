@@ -1,0 +1,142 @@
+{
+  "version": "1.0.0",
+  "source": "City of Ottawa VRF_Scorecard_MVP — Risk_Tolerance_Statements.csv",
+  "framework": [
+    {
+      "intentArea": "Innovation",
+      "statement": "The City of Ottawa is committed to continuous improvement and innovation of the programs and services provided to clients.",
+      "tolerance": "There is high tolerance for risks related to adaptation and learning how to provide services in new and unprecedented ways, as well as to achieve efficiencies.",
+      "level": "HIGH",
+      "cityTolerance": "High",
+      "guidance": "There is high tolerance for risks related to adaptation and learning how to provide services in new and unprecedented ways, as well as to achieve efficiencies."
+    },
+    {
+      "intentArea": "Continuity of Operations",
+      "statement": "The City of Ottawa is committed to maintaining the continued availability of its programs and services.",
+      "tolerance": "The City has a low tolerance for ineffective and inefficient use of resources.",
+      "level": "LOW",
+      "cityTolerance": "Low",
+      "guidance": "The City has a low tolerance for ineffective and inefficient use of resources."
+    },
+    {
+      "intentArea": "Continuity of Operations",
+      "statement": "The City of Ottawa is committed to maintaining the continued availability of its programs and services.",
+      "tolerance": "The City has a low tolerance for disruptions to critical services and a moderate tolerance for disruptions to non-critical services.",
+      "level": "LOW",
+      "cityTolerance": "Low",
+      "guidance": "The City has a low tolerance for disruptions to critical services and a moderate tolerance for disruptions to non-critical services."
+    },
+    {
+      "intentArea": "Financial",
+      "statement": "The City of Ottawa is responsible for the stewardship over its financial resources and maintaining a balanced budget.",
+      "tolerance": "The City has a low tolerance for misuse of financial resources",
+      "level": "LOW",
+      "cityTolerance": "Low",
+      "guidance": "The City has a low tolerance for misuse of financial resources"
+    },
+    {
+      "intentArea": "Financial",
+      "statement": "The City of Ottawa is responsible for the stewardship over its financial resources and maintaining a balanced budget.",
+      "tolerance": "The City has a moderate tolerance to rebalance defined financial parameters to support the achievement of the City's strategic priorities.",
+      "level": "MODERATE",
+      "cityTolerance": "Moderate",
+      "guidance": "The City has a moderate tolerance to rebalance defined financial parameters to support the achievement of the City's strategic priorities."
+    },
+    {
+      "intentArea": "Human Resources Management",
+      "statement": "The City of Ottawa is committed to supporting an engaged, diverse and adaptive workforce to support Service Excellence.",
+      "tolerance": "The City has a high tolerance for actions that attract, develop, and retain staff to achieve and maintain the City's workforce in the long term.",
+      "level": "HIGH",
+      "cityTolerance": "High",
+      "guidance": "The City has a high tolerance for actions that attract, develop, and retain staff to achieve and maintain the City's workforce in the long term."
+    },
+    {
+      "intentArea": "Human Resources Management",
+      "statement": "The City of Ottawa is committed to supporting an engaged, diverse and adaptive workforce to support Service Excellence.",
+      "tolerance": "The City has a low tolerance for managerial decisions or behaviours that could negatively impact staff retention.",
+      "level": "LOW",
+      "cityTolerance": "Low",
+      "guidance": "The City has a low tolerance for managerial decisions or behaviours that could negatively impact staff retention."
+    },
+    {
+      "intentArea": "Infrastructure",
+      "statement": "The City of Ottawa is committed to investing in sustainable infrastructure to meet the growth and service needs of the City, which are bound by financial parameters established in the City's fiscal budget, as described in the City's comprehensive asset management program.",
+      "tolerance": "The City has a low tolerance for infrastructure investments unless the investment is to mitigate the safety of the public and/or the provision of critical City services.",
+      "level": "LOW",
+      "cityTolerance": "Low",
+      "guidance": "The City has a low tolerance for infrastructure investments unless the investment is to mitigate the safety of the public and/or the provision of critical City services."
+    },
+    {
+      "intentArea": "Partnerships",
+      "statement": "The City of Ottawa is committed to its relationships with internal and external stakeholders and impact current/future partnership opportunities. The City has a moderate tolerance for establishing new partnership opportunities that support the achievement of strategic priorities.",
+      "tolerance": "The City of Ottawa has a low tolerance for risks that would damage its relationships with internal and external stakeholders and impact current/future partnership opportunities.",
+      "level": "LOW",
+      "cityTolerance": "Low",
+      "guidance": "The City of Ottawa has a low tolerance for risks that would damage its relationships with internal and external stakeholders and impact current/future partnership opportunities."
+    },
+    {
+      "intentArea": "Partnerships",
+      "statement": "The City of Ottawa is committed to its relationships with internal and external stakeholders and impact current/future partnership opportunities. The City has a moderate tolerance for establishing new partnership opportunities that support the achievement of strategic priorities.",
+      "tolerance": "The City has a moderate tolerance for establishing new partnership opportunities that support the achievement of strategic priorities.",
+      "level": "MODERATE",
+      "cityTolerance": "Moderate",
+      "guidance": "The City has a moderate tolerance for establishing new partnership opportunities that support the achievement of strategic priorities."
+    },
+    {
+      "intentArea": "Technology",
+      "statement": "The City of Ottawa has a moderate tolerance for risks related to the availability of systems that support its critical operations and business functions and a low tolerance for threats to systems and assets arising for external malicious attacks. The City has a high tolerance for new technology that will support effective and efficient delivery of services and programs.",
+      "tolerance": "The City of Ottawa has a moderate tolerance for risks related to the availability of systems that support its critical operations and business functions",
+      "level": "MODERATE",
+      "cityTolerance": "Moderate",
+      "guidance": "The City of Ottawa has a moderate tolerance for risks related to the availability of systems that support its critical operations and business functions"
+    },
+    {
+      "intentArea": "Technology",
+      "statement": "The City of Ottawa has a moderate tolerance for risks related to the availability of systems that support its critical operations and business functions and a low tolerance for threats to systems and assets arising for external malicious attacks. The City has a high tolerance for new technology that will support effective and efficient delivery of services and programs.",
+      "tolerance": "The City of Ottawa has a low tolerance for threats to systems and assets arising for external malicious attacks.",
+      "level": "LOW",
+      "cityTolerance": "Low",
+      "guidance": "The City of Ottawa has a low tolerance for threats to systems and assets arising for external malicious attacks."
+    },
+    {
+      "intentArea": "Technology",
+      "statement": "The City of Ottawa has a moderate tolerance for risks related to the availability of systems that support its critical operations and business functions and a low tolerance for threats to systems and assets arising for external malicious attacks. The City has a high tolerance for new technology that will support effective and efficient delivery of services and programs.",
+      "tolerance": "The City has a high tolerance for new technology that will support effective and efficient delivery of services and programs.",
+      "level": "HIGH",
+      "cityTolerance": "High",
+      "guidance": "The City has a high tolerance for new technology that will support effective and efficient delivery of services and programs."
+    },
+    {
+      "intentArea": "Political",
+      "statement": "The City of Ottawa's operational environment is highly dependent on the federal, provincial, and municipal governments. As such, the City has moderate tolerance to challenge the strategy identified by the elected City Council.",
+      "tolerance": "The City has moderate tolerance to challenge the strategy identified by the elected City Council.",
+      "level": "MODERATE",
+      "cityTolerance": "Moderate",
+      "guidance": "The City has moderate tolerance to challenge the strategy identified by the elected City Council."
+    },
+    {
+      "intentArea": "Reputation",
+      "statement": "The City of Ottawa has low tolerance for risks that could negatively affect the public opinion about the City, related to perceived value, organizational status, public perception and trust.",
+      "tolerance": "The City of Ottawa has low tolerance for risks that could negatively affect the public opinion about the City, related to perceived value, organizational status, public perception and trust.",
+      "level": "LOW",
+      "cityTolerance": "Low",
+      "guidance": "The City of Ottawa has low tolerance for risks that could negatively affect the public opinion about the City, related to perceived value, organizational status, public perception and trust."
+    },
+    {
+      "intentArea": "Staff and Public Health and Safety",
+      "statement": "The City of Ottawa is committed to promoting safety, culture and social and physical/mental well-being for City residents.",
+      "tolerance": "The City has low tolerance for unmanaged activities related to the health and safety of its staff and the public.",
+      "level": "LOW",
+      "cityTolerance": "Low",
+      "guidance": "The City has low tolerance for unmanaged activities related to the health and safety of its staff and the public."
+    },
+    {
+      "intentArea": "Compliance",
+      "statement": "The City of Ottawa is committed to maintaining the highest standards of integrity, compliance, and ethics.",
+      "tolerance": "The City has a low tolerance for failure to comply with new and/or changing laws, regulations, policies, directives and legal agreements. As well, the City must continue to demonstrate its adherence to mandated requirements.",
+      "level": "LOW",
+      "cityTolerance": "Low",
+      "guidance": "The City has a low tolerance for failure to comply with new and/or changing laws, regulations, policies, directives and legal agreements. As well, the City must continue to demonstrate its adherence to mandated requirements."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Value Realization Scorecard — City of Ottawa</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <header class="brand">
+    <div class="brand-left">
+      <div class="brand-logo">v</div>
+      <div class="brand-title">VALUE REALIZATION SCORECARD</div>
+    </div>
+    <div class="brand-right">
+      <div class="value-score">
+        <div class="value-score-label">VALUE SCORE</div>
+        <div class="value-score-number" id="valueScore">—</div>
+      </div>
+      <button class="next-step-btn" id="nextStepBtn" disabled>NEXT STEP</button>
+    </div>
+  </header>
+
+  <div class="app-shell">
+    <aside class="nav-rail">
+      <nav>
+        <a href="#input" class="nav-link" data-screen="input"><span class="nav-num">01</span> INPUT</a>
+        <a href="#scorecard" class="nav-link" data-screen="scorecard"><span class="nav-num">02</span> SCORECARD</a>
+        <a href="#kpi" class="nav-link" data-screen="kpi"><span class="nav-num">03</span> KPI ALIGNMENT</a>
+        <a href="#risk" class="nav-link" data-screen="risk"><span class="nav-num">04</span> RISK ANALYSIS</a>
+        <a href="#story" class="nav-link" data-screen="story"><span class="nav-num">05</span> SUCCESS STORY</a>
+        <a href="#summary" class="nav-link" data-screen="summary"><span class="nav-num">06</span> SUMMARY SNAPSHOT</a>
+        <a href="#strategic" class="nav-link nav-link--analysis" data-screen="strategic">STRATEGIC ANALYSIS</a>
+        <a href="#toc" class="nav-link" data-screen="toc">THEORY OF CHANGE</a>
+      </nav>
+      <div class="nav-footer">
+        <div class="nav-footer-label">SYSTEM HEALTH</div>
+        <div class="nav-footer-bars">
+          <div class="bar bar--on"></div>
+          <div class="bar bar--on"></div>
+          <div class="bar bar--on"></div>
+          <div class="bar bar--on"></div>
+          <div class="bar"></div>
+        </div>
+        <div class="nav-footer-latency">LATENCY: <span id="latencyReadout">—</span></div>
+        <div class="nav-footer-mode">LLM: <span id="llmMode">…</span></div>
+      </div>
+    </aside>
+
+    <main class="content" id="content">
+      <!-- Screens are rendered here by app.js -->
+      <div class="loading">Loading…</div>
+    </main>
+  </div>
+
+  <!-- Toast / messages -->
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="/js/api.js"></script>
+  <script src="/js/screens.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

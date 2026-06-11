@@ -1,0 +1,14 @@
+{
+  "name": "coo-value-realization-scorecard",
+  "version": "0.1.0",
+  "description": "City of Ottawa Value Realization Scorecard — LLM-powered tool to articulate value, suggest KPIs, identify risks, generate success stories, and align to strategic priorities.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "private": true
+}

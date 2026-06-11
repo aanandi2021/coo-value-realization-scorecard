@@ -1,0 +1,186 @@
+{
+  "version": "0.1.0",
+  "source": "CoO Value Realization team (placeholder library)",
+  "kpis": [
+    {
+      "id": "manual-hours-saved",
+      "name": "Manual Processing Hours Saved (Monthly)",
+      "type": "Quantitative",
+      "categories": ["capacity-creation", "direct-cost-savings"],
+      "definition": "Total staff hours per month removed from a manual process as a direct result of the initiative.",
+      "unit": "hours / month",
+      "dataSource": "Departmental Performance Tracker",
+      "calculation": "Sum(prior_manual_hours) - Sum(current_manual_hours) per month"
+    },
+    {
+      "id": "employee-productivity-score",
+      "name": "Employee Productivity & Effort Score",
+      "type": "Qualitative",
+      "categories": ["capacity-creation", "experience-engagement"],
+      "definition": "Survey-based score measuring staff perception of effort and productivity for the impacted workflow.",
+      "unit": "% positive",
+      "dataSource": "Post-Service Survey / Feedback Portal",
+      "calculation": "(Positive Responses / Total Responses) * 100"
+    },
+    {
+      "id": "process-cycle-time",
+      "name": "Process Cycle Time Reduction",
+      "type": "Quantitative",
+      "categories": ["capacity-creation", "improved-service-delivery"],
+      "definition": "End-to-end time to complete the impacted workflow, comparing pre- and post-implementation states.",
+      "unit": "minutes",
+      "dataSource": "Workflow Audit Logs",
+      "calculation": "Avg(New Process Time) - Avg(Old Process Time)"
+    },
+    {
+      "id": "service-resolution-time",
+      "name": "Average Resolution Time",
+      "type": "Quantitative",
+      "categories": ["improved-service-delivery"],
+      "definition": "Mean time from service request submission to resolution / closure.",
+      "unit": "hours",
+      "dataSource": "311 / Service Request System",
+      "calculation": "Mean(resolution_time - submission_time)"
+    },
+    {
+      "id": "service-response-time",
+      "name": "Average Response Time",
+      "type": "Quantitative",
+      "categories": ["improved-service-delivery"],
+      "definition": "Mean time from service request submission to first meaningful response from the City.",
+      "unit": "hours",
+      "dataSource": "311 / Service Request System",
+      "calculation": "Mean(first_response_time - submission_time)"
+    },
+    {
+      "id": "complaint-reduction-rate",
+      "name": "Complaint Reduction Rate",
+      "type": "Quantitative",
+      "categories": ["improved-service-delivery", "experience-engagement"],
+      "definition": "Year-over-year percentage reduction in formal complaints related to the impacted service.",
+      "unit": "% reduction",
+      "dataSource": "Complaints Register / 311",
+      "calculation": "((Prior_period_complaints - Current_period_complaints) / Prior_period_complaints) * 100"
+    },
+    {
+      "id": "customer-satisfaction-score",
+      "name": "Customer Satisfaction Score",
+      "type": "Quantitative + Qualitative",
+      "categories": ["improved-service-delivery", "experience-engagement"],
+      "definition": "Composite satisfaction score combining a numeric rating with qualitative feedback themes from post-service surveys.",
+      "unit": "score 1-5 + theme analysis",
+      "dataSource": "Post-Service Survey",
+      "calculation": "Mean(satisfaction_score) plus thematic coding of free-text comments"
+    },
+    {
+      "id": "ease-of-interaction-index",
+      "name": "Ease of Interaction Index",
+      "type": "Qualitative",
+      "categories": ["experience-engagement", "improved-service-delivery"],
+      "definition": "Qualitative measure of how easy it was for the resident or business to interact with the City for this service.",
+      "unit": "index 0-100",
+      "dataSource": "Customer Effort Survey",
+      "calculation": "Weighted index of effort indicators (steps required, time taken, repeat contacts, perceived ease)"
+    },
+    {
+      "id": "first-contact-resolution",
+      "name": "First-Contact Resolution Rate",
+      "type": "Quantitative",
+      "categories": ["improved-service-delivery", "experience-engagement"],
+      "definition": "Percentage of inquiries fully resolved at first point of contact, without escalation or callback.",
+      "unit": "%",
+      "dataSource": "Contact Centre CRM",
+      "calculation": "(FCR_count / Total_contacts) * 100"
+    },
+    {
+      "id": "citizen-satisfaction",
+      "name": "Citizen Satisfaction (CSAT) — generic",
+      "type": "Qualitative",
+      "categories": ["improved-service-delivery", "experience-engagement"],
+      "definition": "Citizen-reported satisfaction with the service interaction or outcome (generic CSAT — see Customer Satisfaction Score for the canonical CoO metric).",
+      "unit": "score 1-5",
+      "dataSource": "Post-Service Survey",
+      "calculation": "Mean(satisfaction_score)"
+    },
+    {
+      "id": "operating-cost-reduction",
+      "name": "Operating Cost Reduction",
+      "type": "Quantitative",
+      "categories": ["direct-cost-savings"],
+      "definition": "Year-over-year reduction in operating expenditure on the impacted program or service.",
+      "unit": "$ / year",
+      "dataSource": "GL / Budget Actuals",
+      "calculation": "Prior_year_opex - Current_year_opex"
+    },
+    {
+      "id": "vendor-spend-reduction",
+      "name": "Vendor / Procurement Spend Reduction",
+      "type": "Quantitative",
+      "categories": ["direct-cost-savings"],
+      "definition": "Reduction in third-party / vendor spend attributable to the initiative (in-sourcing, consolidation, automation).",
+      "unit": "$ / year",
+      "dataSource": "Procurement System",
+      "calculation": "Prior_vendor_spend - Current_vendor_spend"
+    },
+    {
+      "id": "compliance-finding-reduction",
+      "name": "Compliance / Audit Finding Reduction",
+      "type": "Quantitative",
+      "categories": ["risk-reduction"],
+      "definition": "Reduction in the number or severity of audit / compliance findings against the impacted process.",
+      "unit": "# findings",
+      "dataSource": "Internal Audit Tracker",
+      "calculation": "Prior_period_findings - Current_period_findings"
+    },
+    {
+      "id": "incident-rate",
+      "name": "Operational Incident Rate",
+      "type": "Quantitative",
+      "categories": ["risk-reduction"],
+      "definition": "Rate of operational incidents (security, safety, service outage) per unit time for the impacted area.",
+      "unit": "incidents / month",
+      "dataSource": "Incident Management System",
+      "calculation": "Count(incidents) / period_months"
+    },
+    {
+      "id": "revenue-growth",
+      "name": "Net Revenue Growth",
+      "type": "Quantitative",
+      "categories": ["revenue-generation"],
+      "definition": "Net new non-tax revenue generated by the initiative (gross revenue minus incremental cost-to-serve).",
+      "unit": "$ / year",
+      "dataSource": "Finance",
+      "calculation": "New_gross_revenue - Incremental_costs"
+    },
+    {
+      "id": "digital-adoption",
+      "name": "Digital Channel Adoption Rate",
+      "type": "Quantitative",
+      "categories": ["improved-service-delivery", "experience-engagement"],
+      "definition": "Share of citizen interactions completed via digital channels versus phone or in-person.",
+      "unit": "%",
+      "dataSource": "Channel Analytics",
+      "calculation": "(Digital_transactions / Total_transactions) * 100"
+    },
+    {
+      "id": "engagement-reach",
+      "name": "Engagement Reach",
+      "type": "Quantitative",
+      "categories": ["experience-engagement"],
+      "definition": "Unique residents/stakeholders meaningfully engaged through the initiative (consultation, programming, services).",
+      "unit": "# people",
+      "dataSource": "Program Records / Engage Ottawa",
+      "calculation": "Distinct_count(participants)"
+    },
+    {
+      "id": "equity-access",
+      "name": "Equity of Access Index",
+      "type": "Qualitative",
+      "categories": ["experience-engagement", "improved-service-delivery"],
+      "definition": "Composite measure of how equitably the service reaches priority neighbourhoods and populations.",
+      "unit": "index 0-100",
+      "dataSource": "Equity & Inclusion Office",
+      "calculation": "Weighted index of access metrics across priority groups"
+    }
+  ]
+}

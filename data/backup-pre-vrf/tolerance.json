@@ -1,0 +1,41 @@
+{
+  "version": "0.1.0",
+  "source": "CoO Risk team (placeholder framework)",
+  "framework": [
+    {
+      "intentArea": "Data Privacy & Cybersecurity",
+      "cityTolerance": "Low",
+      "guidance": "The City maintains a LOW tolerance for cyber and privacy risk. All initiatives touching personal information or core systems must clear robust validation gates including a Privacy Impact Assessment and security review."
+    },
+    {
+      "intentArea": "Change Management & Adoption",
+      "cityTolerance": "Medium",
+      "guidance": "The City accepts MEDIUM operational change risk where the initiative includes a credible change management plan, training, and pilot phase."
+    },
+    {
+      "intentArea": "Financial Stewardship",
+      "cityTolerance": "Low",
+      "guidance": "Budget overruns and unrealized savings are LOW tolerance. Initiatives must include a business case with realistic benefits, contingency, and a benefits-realization plan."
+    },
+    {
+      "intentArea": "Regulatory Compliance",
+      "cityTolerance": "Low",
+      "guidance": "Non-compliance with legislation, by-law, or council direction is LOW tolerance. Legal and Clerk review required for any net-new public-facing process."
+    },
+    {
+      "intentArea": "Reputation Management",
+      "cityTolerance": "Low",
+      "guidance": "Loss of public trust is LOW tolerance. Initiatives that introduce automated decisioning or differential service must include transparency, appeal mechanisms, and proactive communications."
+    },
+    {
+      "intentArea": "Vendor Management",
+      "cityTolerance": "Medium",
+      "guidance": "Third-party dependency is MEDIUM tolerance — acceptable with appropriate due diligence, contract terms, exit strategy, and ongoing performance management."
+    },
+    {
+      "intentArea": "Data Integrity",
+      "cityTolerance": "Medium",
+      "guidance": "MEDIUM tolerance for data-driven decisioning provided data lineage, quality monitoring, and human-in-the-loop review are in place for material decisions."
+    }
+  ]
+}
