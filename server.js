@@ -3,6 +3,7 @@
 // Endpoints:
 //   GET  /                       → SPA shell
 //   GET  /api/refdata            → categories, kpis, risks, tolerance, priorities, departments
+//   GET  /api/kpi-canvas         → rich KPI master DB (definition, formula, unit, data required) for the Canvas screen
 //   GET  /api/examples           → preset example datasets for the "Load Example Data" button
 //   POST /api/analyze            → run the full analysis pipeline
 //   POST /api/generate-story     → (re)generate the success story in a chosen mode
@@ -70,6 +71,10 @@ app.get('/api/refdata', (req, res) => {
     priorities: loadJsonFile('data/strategic-priorities.json').priorities,
     departments: loadJsonFile('data/departments.json').departments,
   });
+});
+
+app.get('/api/kpi-canvas', (req, res) => {
+  res.json(loadJsonFile('data/kpi-canvas.json'));
 });
 
 app.get('/api/examples', (req, res) => {

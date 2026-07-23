@@ -249,7 +249,7 @@ Screens.kpi = function () {
   const tbody = el('tbody');
   a.kpis.forEach(k => {
     const ribbonCls = k.recommendation === 'PRIMARY' ? 'kpi-rec--primary' : 'kpi-rec--secondary';
-    tbody.appendChild(el('tr', {}, [
+    tbody.appendChild(el('tr', { class: 'kpi-row--click', title: 'Open KPI Canvas', onclick: () => openCanvasFor(k) }, [
       el('td', {}, [
         el('div', { class: 'kpi-name-cell' }, [
           el('div', { class: 'kpi-name' }, k.name),
@@ -289,13 +289,237 @@ Screens.kpi = function () {
   card.appendChild(el('button', {
     class: 'btn',
     style: 'margin-top: 18px;',
-    onclick: () => navigate('risk'),
-  }, 'NEXT: RISK ANALYSIS →'));
+    onclick: () => navigate('canvas'),
+  }, 'NEXT: KPI CANVAS →'));
   root.appendChild(card);
   return root;
 };
 
-// ---------- 04 RISK ANALYSIS ----------
+// ---------- 04 KPI CANVAS ----------
+
+function normalizeKpiName(s) {
+  return (s || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+}
+
+// Known renames between the analysis KPI library (kpis.json) and the master Canvas DB.
+const KPI_NAME_ALIASES = {
+  'customer satisfaction score': 'resident client satisfaction score',
+};
+
+function canvasKpis() {
+  return (STATE.kpiCanvas && STATE.kpiCanvas.kpis) || [];
+}
+
+// Resolve a recommended/analysis KPI to a master Canvas KPI by NAME only.
+// The two datasets use different ID namespaces, so ID matching would be unreliable.
+function resolveCanvasKpi(rec) {
+  const kpis = canvasKpis();
+  if (!kpis.length) return null;
+  const recName = normalizeKpiName(rec && (rec.name || rec));
+  if (!recName) return null;
+  const aliased = KPI_NAME_ALIASES[recName] || recName;
+  let hit = kpis.find(k => normalizeKpiName(k.name) === aliased);
+  if (hit) return hit;
+  hit = kpis.find(k => {
+    const n = normalizeKpiName(k.name);
+    return n && (n.includes(aliased) || aliased.includes(n));
+  });
+  return hit || null;
+}
+
+// Used by the KPI Alignment screen rows.
+function openCanvasFor(rec) {
+  const hit = resolveCanvasKpi(rec);
+  if (hit) {
+    STATE.selectedKpiId = hit.id;
+  } else {
+    STATE.selectedKpiId = null;
+    toast('No exact Canvas match — browse the KPI library.');
+  }
+  navigate('canvas');
+}
+
+function selectedCanvasKpi() {
+  const kpis = canvasKpis();
+  if (!kpis.length || !STATE.selectedKpiId) return null;
+  return kpis.find(k => k.id === STATE.selectedKpiId) || null;
+}
+
+function validHttpUrl(s) {
+  if (!s) return null;
+  try {
+    const u = new URL(String(s).trim());
+    return (u.protocol === 'http:' || u.protocol === 'https:') ? u.href : null;
+  } catch { return null; }
+}
+
+Screens.canvas = function () {
+  const root = el('div');
+  const cv = STATE.kpiCanvas;
+  if (!cv || !cv.kpis || !cv.kpis.length) {
+    root.appendChild(header('KPI CANVAS', '04', 'KPI reference library unavailable.', null));
+    root.appendChild(emptyState('KPI Canvas data could not be loaded.', 'kpi'));
+    return root;
+  }
+
+  root.appendChild(header('KPI CANVAS', '04',
+    'Complete measurement picture for a KPI — definition, formula, units, feasibility, and the data required to calculate it.',
+    el('div', { class: 'badge badge--gen-ai' }, '📐 MEASUREMENT BLUEPRINT')));
+
+  // --- KPI picker, grouped by value category ---
+  const card = el('div', { class: 'card' });
+  const pickerRow = el('div', { class: 'canvas-picker' });
+  pickerRow.appendChild(el('label', { class: 'field-label' }, 'Select a KPI'));
+  const sel = el('select', { class: 'field-select', id: 'canvasKpiSelect' });
+  sel.appendChild(el('option', { value: '' }, '— Choose a KPI —'));
+
+  const cats = cv.categories || {};
+  const order = ['ISD', 'CC', 'DCS'];
+  const groups = order.concat(Object.keys(cats).filter(c => !order.includes(c)));
+  const seen = new Set();
+  groups.forEach(code => {
+    const inCat = cv.kpis.filter(k => k.valueCategory === code);
+    if (!inCat.length) return;
+    const label = (cats[code] && cats[code].name) || code;
+    const og = el('optgroup', { label: `${label} (${code})` });
+    inCat.forEach(k => {
+      seen.add(k.id);
+      og.appendChild(el('option', { value: k.id }, `${k.id} · ${k.name}`));
+    });
+    sel.appendChild(og);
+  });
+  const orphans = cv.kpis.filter(k => !seen.has(k.id));
+  if (orphans.length) {
+    const og = el('optgroup', { label: 'Other' });
+    orphans.forEach(k => og.appendChild(el('option', { value: k.id }, `${k.id} · ${k.name}`)));
+    sel.appendChild(og);
+  }
+  sel.value = STATE.selectedKpiId || '';
+  sel.addEventListener('change', () => {
+    STATE.selectedKpiId = sel.value || null;
+    rerender();
+  });
+  pickerRow.appendChild(sel);
+  card.appendChild(pickerRow);
+  root.appendChild(card);
+
+  const kpi = selectedCanvasKpi();
+  if (!kpi) {
+    const note = el('div', { class: 'canvas-placeholder' }, [
+      el('div', { class: 'canvas-placeholder-icon' }, '📐'),
+      el('div', { class: 'canvas-placeholder-text' },
+        'Choose a KPI above to view its measurement canvas, or open one directly from the KPI Alignment screen.'),
+    ]);
+    root.appendChild(note);
+    return root;
+  }
+
+  // --- Category banner ---
+  const a = STATE.analysis;
+  const bannerBits = [
+    el('span', {}, [el('strong', {}, 'Category: '), kpi.valueCategoryName || '—']),
+  ];
+  if (a && a.primary) {
+    bannerBits.push(el('span', { class: 'canvas-banner-sep' }, '·'));
+    bannerBits.push(el('span', {}, [el('strong', {}, 'Primary: '), a.primary.name || '—']));
+    if (a.secondary) {
+      bannerBits.push(el('span', { class: 'canvas-banner-sep' }, '·'));
+      bannerBits.push(el('span', {}, [el('strong', {}, 'Secondary: '), a.secondary.name]));
+    }
+  }
+  if (kpi.source === 'dept') {
+    bannerBits.push(el('span', { class: 'canvas-banner-sep' }, '·'));
+    bannerBits.push(el('span', { class: 'canvas-dept-tag' }, 'DEPARTMENTAL KPI'));
+  }
+  root.appendChild(el('div', { class: 'canvas-banner' }, bannerBits));
+
+  // --- Two-panel layout ---
+  const grid = el('div', { class: 'canvas-grid' });
+
+  // LEFT: KPI definition card
+  const left = el('div', { class: 'card canvas-left' });
+  left.appendChild(el('div', { class: 'canvas-kpi-title' }, `KPI: ${kpi.name}`));
+  const rows = [
+    ['What does it measure?', kpi.whatItMeasures],
+    ['How is it calculated?', kpi.formula],
+    ['Unit & Frequency', [kpi.unit, kpi.frequency].filter(Boolean).join('   ·   ')],
+    ['Feasibility', kpi.feasibility],
+  ];
+  rows.forEach(([label, value]) => {
+    const r = el('div', { class: 'canvas-def-row' });
+    r.appendChild(el('div', { class: 'canvas-def-label' }, label));
+    if (label === 'Feasibility' && value) {
+      r.appendChild(el('div', {}, el('span', { class: 'feas-pill feas--' + value.toLowerCase() }, value)));
+    } else {
+      r.appendChild(el('div', { class: 'canvas-def-value' }, value || '—'));
+    }
+    left.appendChild(r);
+  });
+  grid.appendChild(left);
+
+  // RIGHT: Data Required table
+  const right = el('div', { class: 'card canvas-right' });
+  right.appendChild(el('div', { class: 'canvas-right-title' }, 'Data Required'));
+  const tbl = el('table', { class: 'data-req-table' });
+  tbl.appendChild(el('thead', {}, el('tr', {}, [
+    el('th', {}, 'Data Element'),
+    el('th', {}, 'Description'),
+    el('th', { style: 'width: 104px' }, 'Necessity'),
+  ])));
+  const tb = el('tbody');
+
+  function necessityCell(req) {
+    return el('td', {}, el('span', { class: 'necessity necessity--' + (req ? 'required' : 'optional') },
+      req ? 'Required' : 'Optional'));
+  }
+
+  tb.appendChild(el('tr', {}, [
+    el('td', { class: 'data-el' }, 'Definition'),
+    el('td', {}, kpi.definition || '—'),
+    necessityCell(true),
+  ]));
+  tb.appendChild(el('tr', {}, [
+    el('td', { class: 'data-el' }, 'Data Source'),
+    el('td', {}, kpi.suggestedSources || '—'),
+    necessityCell(true),
+  ]));
+  const link = validHttpUrl(kpi.openDataLink);
+  const linkCell = el('td', {});
+  if (link) {
+    linkCell.appendChild(el('a', { class: 'data-link', href: link, target: '_blank', rel: 'noopener noreferrer' }, link));
+  } else {
+    linkCell.appendChild(el('span', { class: 'data-muted' }, 'Not provided'));
+  }
+  tb.appendChild(el('tr', {}, [
+    el('td', { class: 'data-el' }, 'Open Data Link'),
+    linkCell,
+    necessityCell(false),
+  ]));
+  tbl.appendChild(tb);
+  right.appendChild(tbl);
+
+  if (kpi.dataSourceType) {
+    right.appendChild(el('div', { class: 'canvas-src-type' }, [
+      el('span', { class: 'canvas-src-type-label' }, 'SOURCE TYPE'),
+      el('span', { class: 'canvas-src-type-val' }, kpi.dataSourceType.replace(/_/g, ' ')),
+    ]));
+  }
+  grid.appendChild(right);
+  root.appendChild(grid);
+
+  // --- Footer actions ---
+  const actions = el('div', { class: 'canvas-actions' });
+  actions.appendChild(el('button', { class: 'btn btn--ghost', onclick: () => navigate('kpi') }, '← Back to KPI Alignment'));
+  actions.appendChild(el('button', {
+    class: 'btn',
+    onclick: () => { toast(`KPI "${kpi.name}" noted.`); navigate('risk'); },
+  }, 'Confirm this KPI →'));
+  root.appendChild(actions);
+
+  return root;
+};
+
+// ---------- 05 RISK ANALYSIS ----------
 Screens.risk = function () {
   if (!STATE.analysis) return emptyState('Run an analysis to see risk analysis.', 'input');
   const a = STATE.analysis;

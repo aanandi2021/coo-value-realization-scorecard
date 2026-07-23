@@ -1,6 +1,7 @@
 // Tiny API client — wraps fetch + JSON.
 const API = {
   async refdata() { return fetch('/api/refdata').then(r => r.json()); },
+  async kpiCanvas() { return fetch('/api/kpi-canvas').then(r => r.json()); },
   async examples() { return fetch('/api/examples').then(r => r.json()); },
   async health() { return fetch('/api/health').then(r => r.json()); },
   async session() { return fetch('/api/session').then(r => r.json()); },

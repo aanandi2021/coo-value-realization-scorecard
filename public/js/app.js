@@ -5,6 +5,8 @@ const STATE = window.STATE = {
   examples: null,
   health: null,
   session: null,
+  kpiCanvas: null,
+  selectedKpiId: null,
 
   input: null,
   analysis: null,
@@ -17,11 +19,12 @@ const STATE = window.STATE = {
   lastLatencyMs: null,
 };
 
-const SCREENS_IN_ORDER = ['input', 'scorecard', 'kpi', 'risk', 'story', 'summary', 'strategic', 'toc'];
+const SCREENS_IN_ORDER = ['input', 'scorecard', 'kpi', 'canvas', 'risk', 'story', 'summary', 'strategic', 'toc'];
 const SCREEN_LABELS = {
   input: 'INPUT',
   scorecard: 'SCORECARD',
   kpi: 'KPI ALIGNMENT',
+  canvas: 'KPI CANVAS',
   risk: 'RISK ANALYSIS',
   story: 'SUCCESS STORY',
   summary: 'SUMMARY SNAPSHOT',
@@ -132,13 +135,15 @@ document.querySelectorAll('.nav-link').forEach(a => {
 
 (async function boot() {
   try {
-    const [refdata, examples, health, session] = await Promise.all([
+    const [refdata, examples, health, session, kpiCanvas] = await Promise.all([
       API.refdata(), API.examples(), API.health(), API.session(),
+      API.kpiCanvas().catch(() => ({ categories: {}, kpis: [] })),
     ]);
     STATE.refdata = refdata;
     STATE.examples = examples;
     STATE.health = health;
     STATE.session = session;
+    STATE.kpiCanvas = kpiCanvas;
     const h = window.location.hash.replace('#', '');
     currentScreen = SCREENS_IN_ORDER.includes(h) ? h : 'input';
     rerender();
